@@ -113,7 +113,9 @@ def send_syx_file(port_name, path, progress=None, audition=False):
 # Receiving a voice from the synth (current / edit-buffer voice)
 # --------------------------------------------------------------------------- #
 # Bulk-dump request for the current voice (device 0x20 = channel 1, model 0x05).
-DUMP_REQUEST = bytes([0xF0, 0x43, 0x20, 0x7F, 0x1C, 0x05, 0, 0, 0, 0xF7])
+# The address is the voice bulk *header* (0E 0F 00); the reface answers with the
+# whole 7-message voice. (Address 00 00 00 is the System block, not the voice.)
+DUMP_REQUEST = bytes([0xF0, 0x43, 0x20, 0x7F, 0x1C, 0x05, 0x0E, 0x0F, 0x00, 0xF7])
 FOOTER_ADDRESS = (0x0F, 0x0F, 0x00)  # last of the 7 messages in a voice
 
 

@@ -17,7 +17,9 @@ const LOAD_SETTLE = 150;          // ms before the audition note
 const CAPTURE_LIBRARY = "Reface-User";
 
 // Bulk-dump request for the current voice (device 0x20 = ch 1, model 0x05).
-const DUMP_REQUEST = [0xf0, 0x43, 0x20, 0x7f, 0x1c, 0x05, 0, 0, 0, 0xf7];
+// The address is the voice bulk *header* (0E 0F 00); the reface answers with the
+// whole 7-message voice. (Address 00 00 00 is the System block, not the voice.)
+const DUMP_REQUEST = [0xf0, 0x43, 0x20, 0x7f, 0x1c, 0x05, 0x0e, 0x0f, 0x00, 0xf7];
 const FOOTER_ADDRESS = [0x0f, 0x0f, 0x00];
 const DUMP_TIMEOUT = 3000;        // ms to wait for first data
 const DUMP_IDLE = 1000;           // ms of silence that ends a capture
@@ -131,11 +133,20 @@ function requestCurrentVoice(input, output) {
 
     const prevHandler = input.onmidimessage;
     input.onmidimessage = (e) => {
-      started = true;
       events += 1;
       console.log(`[DXcontrol] MIDI in event ${events}: ${e.data.length} bytes`,
         toHex(e.data));
-      for (const b of e.data) buf.push(b);
+      // Drop System Real-Time bytes (0xF8..0xFF: clock, active sensing, ...).
+      // The synth streams these continuously; they aren't part of the dump and
+      // would otherwise reset the idle timer or corrupt a SysEx payload.
+      let added = 0;
+      for (const b of e.data) {
+        if (b >= 0xf8) continue;
+        buf.push(b);
+        added += 1;
+      }
+      if (added === 0) return;     // a clock-only event: ignore it entirely
+      started = true;
       if (overallTimer) { clearTimeout(overallTimer); overallTimer = null; }
       if (idleTimer) clearTimeout(idleTimer);
       if (isComplete()) { succeed(); return; }
@@ -463,7 +474,7 @@ async function onLoad() {
   }
 }
 
-const VERSION = "2026-06-08c";
+const VERSION = "2026-06-08d";
 
 async function init() {
   console.log(`[DXcontrol] app.js version ${VERSION}`);
