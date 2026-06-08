@@ -1885,6 +1885,13 @@
         "syx": "Reface-TX81Z/SYX/D32-Efem_Toms_.syx",
         "txt": "Reface-TX81Z/TXT/D32-Efem_Toms_.txt"
       }
+    ],
+    "Reface-User": [
+      {
+        "name": "Guitar_FB1",
+        "syx": "Reface-User/SYX/Guitar_FB1.syx",
+        "txt": "Reface-User/TXT/Guitar_FB1.txt"
+      }
     ]
   }
 }
