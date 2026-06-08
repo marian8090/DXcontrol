@@ -44,6 +44,9 @@ function rjust(s, n) { s = String(s); return s.length >= n ? s : " ".repeat(n - 
 function ljust(s, n) { s = String(s); return s.length >= n ? s : s + " ".repeat(n - s.length); }
 function rstrip(s, ch) { let i = s.length; while (i > 0 && s[i - 1] === ch) i--; return s.slice(0, i); }
 function enumName(table, i) { return (i >= 0 && i < table.length) ? table[i] : String(i); }
+function toHex(bytes) {
+  return Array.from(bytes, (b) => b.toString(16).padStart(2, "0")).join(" ");
+}
 
 // --------------------------------------------------------------------------- //
 // SysEx handling
@@ -96,6 +99,7 @@ function requestCurrentVoice(input, output) {
   // and split it into F0..F7 messages only once the dump is complete.
   return new Promise((resolve, reject) => {
     const buf = [];
+    let events = 0;
     let started = false;
     let idleTimer = null;
     let overallTimer = null;
@@ -111,7 +115,10 @@ function requestCurrentVoice(input, output) {
         "No data received from the synth. Check the MIDI In port and that " +
         "the reface DX is connected and powered on."));
     };
-    const succeed = () => { cleanup(); resolve(Uint8Array.from(buf)); };
+    const succeed = () => {
+      cleanup();
+      resolve({ bytes: Uint8Array.from(buf), events });
+    };
 
     // The 7-message voice dump is complete once we have 7 whole messages, or
     // the footer block (address 0F 0F 00) has arrived.
@@ -125,6 +132,9 @@ function requestCurrentVoice(input, output) {
     const prevHandler = input.onmidimessage;
     input.onmidimessage = (e) => {
       started = true;
+      events += 1;
+      console.log(`[DXcontrol] MIDI in event ${events}: ${e.data.length} bytes`,
+        toHex(e.data));
       for (const b of e.data) buf.push(b);
       if (overallTimer) { clearTimeout(overallTimer); overallTimer = null; }
       if (idleTimer) clearTimeout(idleTimer);
@@ -423,8 +433,10 @@ async function onLoad() {
   busy = true;
   el.load.disabled = true;
   setStatus("Requesting current voice from synth...");
+  let received = null;
   try {
-    const syx = await requestCurrentVoice(input, output);
+    received = await requestCurrentVoice(input, output);
+    const syx = received.bytes;
     const sheet = formatVoiceSheet(decodeVoice(syx));
     const name = voiceName(syx) || "Voice";
     const stem = nameToFilename(name);
@@ -435,14 +447,26 @@ async function onLoad() {
       `${stem}.txt. Drop them into a ${CAPTURE_LIBRARY}/SYX and /TXT folder ` +
       "to add them to your library.");
   } catch (err) {
-    setStatus(`Could not load from the synth: ${err.message}`, true);
+    // Surface what actually arrived so a failed capture can be diagnosed.
+    let diag = "";
+    if (received) {
+      const hex = toHex(received.bytes);
+      console.log(`[DXcontrol] dump failed: ${received.bytes.length} bytes in ` +
+        `${received.events} event(s). Full hex:\n${hex}`);
+      diag = ` [received ${received.bytes.length} bytes in ${received.events} ` +
+        `MIDI event(s); see DevTools console (F12) for the full hex]`;
+    }
+    setStatus(`Could not load from the synth: ${err.message}${diag}`, true);
   } finally {
     busy = false;
     el.load.disabled = false;
   }
 }
 
+const VERSION = "2026-06-08c";
+
 async function init() {
+  console.log(`[DXcontrol] app.js version ${VERSION}`);
   // Load the patch manifest.
   try {
     const resp = await fetch("manifest.json");
