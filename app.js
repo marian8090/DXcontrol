@@ -89,44 +89,50 @@ async function sendSyx(output, bytes, audition, onProgress) {
 
 function requestCurrentVoice(input, output) {
   // Resolves with a Uint8Array of the concatenated voice dump.
+  //
+  // Web MIDI may split one SysEx message across several MIDIMessageEvents, and
+  // continuation events do NOT start with 0xF0. So we append the bytes of every
+  // event into one buffer (rather than treating each event as a whole message)
+  // and split it into F0..F7 messages only once the dump is complete.
   return new Promise((resolve, reject) => {
-    const collected = [];
+    const buf = [];
     let started = false;
     let idleTimer = null;
     let overallTimer = null;
 
-    const finish = (ok) => {
+    const cleanup = () => {
       input.onmidimessage = prevHandler;
       if (idleTimer) clearTimeout(idleTimer);
       if (overallTimer) clearTimeout(overallTimer);
-      if (!ok) {
-        reject(new Error(
-          "No data received from the synth. Check the MIDI In port and that " +
-          "the reface DX is connected and powered on."));
-        return;
-      }
-      const flat = [];
-      for (const m of collected) for (const b of m) flat.push(b);
-      resolve(Uint8Array.from(flat));
+    };
+    const fail = () => {
+      cleanup();
+      reject(new Error(
+        "No data received from the synth. Check the MIDI In port and that " +
+        "the reface DX is connected and powered on."));
+    };
+    const succeed = () => { cleanup(); resolve(Uint8Array.from(buf)); };
+
+    // The 7-message voice dump is complete once we have 7 whole messages, or
+    // the footer block (address 0F 0F 00) has arrived.
+    const isComplete = () => {
+      const msgs = splitSysex(buf);
+      if (msgs.length >= 7) return true;
+      return msgs.some((m) => m.length >= 11 && m[8] === FOOTER_ADDRESS[0] &&
+        m[9] === FOOTER_ADDRESS[1] && m[10] === FOOTER_ADDRESS[2]);
     };
 
     const prevHandler = input.onmidimessage;
     input.onmidimessage = (e) => {
-      const raw = e.data;
-      if (raw[0] !== 0xf0) return;       // only SysEx
       started = true;
-      collected.push(raw);
+      for (const b of e.data) buf.push(b);
       if (overallTimer) { clearTimeout(overallTimer); overallTimer = null; }
       if (idleTimer) clearTimeout(idleTimer);
-      if (raw.length >= 11 && raw[8] === FOOTER_ADDRESS[0] &&
-          raw[9] === FOOTER_ADDRESS[1] && raw[10] === FOOTER_ADDRESS[2]) {
-        finish(true);
-        return;
-      }
-      idleTimer = setTimeout(() => finish(collected.length > 0), DUMP_IDLE);
+      if (isComplete()) { succeed(); return; }
+      idleTimer = setTimeout(() => (buf.length ? succeed() : fail()), DUMP_IDLE);
     };
 
-    overallTimer = setTimeout(() => { if (!started) finish(false); }, DUMP_TIMEOUT);
+    overallTimer = setTimeout(() => { if (!started) fail(); }, DUMP_TIMEOUT);
     output.send(DUMP_REQUEST);
   });
 }
