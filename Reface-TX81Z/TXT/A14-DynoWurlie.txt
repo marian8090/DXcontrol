@@ -1,0 +1,54 @@
+VOICE NAME     = DynoWurlie
+============================
+TRANSPOSE      =      -12
+MONO/POLY      =     Poly
+PORTA TIME     =        0
+PB RANGE       =        2
+ALGORITHM      =        8
+LFO WAVE       = Triangle
+LFO SPEED      =       69
+LFO DELAY      =       47
+LFO PMD        =        5
+PEG RATE 1     =       39
+PEG RATE 2     =       39
+PEG RATE 3     =      127
+PEG RATE 4     =       39
+PEG LEVEL 1    =        0
+PEG LEVEL 2    =        0
+PEG LEVEL 3    =        0
+PEG LEVEL 4    =        0
+FX1 TYPE       =        0 (Thru)
+FX1 PARAM 1    =       64 (---)
+FX1 PARAM 2    =       64 (---)
+FX2 TYPE       =        0 (Thru)
+FX2 PARAM 1    =       64 (---)
+FX2 PARAM 2    =       64 (---)
+
+                      OP1      OP2      OP3      OP4     
+----------------------------------------------------
+OP Off/On      =       On       On       On       On
+EG RATE 1      =      127      127      127      127
+EG RATE 2      =       38       52      102      127
+EG RATE 3      =       33       33       50       44
+EG RATE 4      =       91       91       75       96
+EG LEVEL 1     =      127      127      127      127
+EG LEVEL 2     =      111       69       37       58
+EG LEVEL 3     =        0        0        0        0
+EG LEVEL 4     =        0        0        0        2
+RATE SCALING   =       85       85       43      127
+SCALING LD     =        0        0        0        0
+SCALING RD     =        0        0        0        0
+SCALING LC     =     +LIN     +LIN     +LIN     +LIN
+SCALING RC     =     -EXP     -EXP     -EXP     -EXP
+LFO AMD        =        0        0        0        0
+LFO PMD Off/On =       On       On       On       On
+PEG Off/On     =       On       On       On       On
+VELO SENS      =       45       53       45       53
+OUT LEVEL      =      127      109      113      101
+FEEDBACK       =        0        0        0      127
+FB TYPE        = Sawtooth Sawtooth Sawtooth   Square
+FREQ MODE      =    Ratio    Ratio    Fixed    Fixed
+RATIO | FREQ   =      1.0      4.0  512.847 1148.151
+   freq coarse =        1        4       16       24
+   freq fine   =        0        0       71        6
+FREQ DETUNE    =        0       -4        4        4

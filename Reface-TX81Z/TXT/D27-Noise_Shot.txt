@@ -1,0 +1,54 @@
+VOICE NAME     = Noise Shot
+============================
+TRANSPOSE      =       11
+MONO/POLY      =     Poly
+PORTA TIME     =        0
+PB RANGE       =        7
+ALGORITHM      =        3
+LFO WAVE       = Sample & Hold 8
+LFO SPEED      =       91
+LFO DELAY      =        0
+LFO PMD        =       74
+PEG RATE 1     =       39
+PEG RATE 2     =       39
+PEG RATE 3     =      127
+PEG RATE 4     =       39
+PEG LEVEL 1    =        0
+PEG LEVEL 2    =        0
+PEG LEVEL 3    =        0
+PEG LEVEL 4    =        0
+FX1 TYPE       =        0 (Thru)
+FX1 PARAM 1    =       64 (---)
+FX1 PARAM 2    =       64 (---)
+FX2 TYPE       =        0 (Thru)
+FX2 PARAM 1    =       64 (---)
+FX2 PARAM 2    =       64 (---)
+
+                      OP1      OP2      OP3      OP4     
+----------------------------------------------------
+OP Off/On      =       On       On       On       On
+EG RATE 1      =      127      127      127      127
+EG RATE 2      =       59      101      127       91
+EG RATE 3      =       96       96       96       96
+EG RATE 4      =      127       40       40       31
+EG LEVEL 1     =      127      127      127      127
+EG LEVEL 2     =       46        0        0        0
+EG LEVEL 3     =        0        0        0        0
+EG LEVEL 4     =        0        0        0        0
+RATE SCALING   =        0        0        0        0
+SCALING LD     =        0        0        0        0
+SCALING RD     =        0        0        0        0
+SCALING LC     =     +LIN     +LIN     +LIN     +LIN
+SCALING RC     =     -EXP     -EXP     -EXP     -EXP
+LFO AMD        =        0        0        0        0
+LFO PMD Off/On =       On       On       On       On
+PEG Off/On     =       On       On       On       On
+VELO SENS      =        0       37        0       37
+OUT LEVEL      =      127      117      127      109
+FEEDBACK       =        0        0       64        0
+FB TYPE        = Sawtooth Sawtooth Sawtooth Sawtooth
+FREQ MODE      =    Ratio    Fixed    Fixed    Ratio
+RATIO | FREQ   =     1.57  158.488   239.88     1.41
+   freq coarse =        1       16       16        1
+   freq fine   =       57       20       38       41
+FREQ DETUNE    =        0        3        4       -1

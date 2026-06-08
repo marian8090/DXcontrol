@@ -1,0 +1,54 @@
+VOICE NAME     = Harp      
+============================
+TRANSPOSE      =        5
+MONO/POLY      =     Poly
+PORTA TIME     =        0
+PB RANGE       =        4
+ALGORITHM      =        3
+LFO WAVE       = Triangle
+LFO SPEED      =       78
+LFO DELAY      =        0
+LFO PMD        =        0
+PEG RATE 1     =       39
+PEG RATE 2     =       39
+PEG RATE 3     =      127
+PEG RATE 4     =       39
+PEG LEVEL 1    =        0
+PEG LEVEL 2    =        0
+PEG LEVEL 3    =        0
+PEG LEVEL 4    =        0
+FX1 TYPE       =        0 (Thru)
+FX1 PARAM 1    =       64 (---)
+FX1 PARAM 2    =       64 (---)
+FX2 TYPE       =        0 (Thru)
+FX2 PARAM 1    =       64 (---)
+FX2 PARAM 2    =       64 (---)
+
+                      OP1      OP2      OP3      OP4     
+----------------------------------------------------
+OP Off/On      =       On       On       On       On
+EG RATE 1      =      127      127      127      107
+EG RATE 2      =       99       79      102      108
+EG RATE 3      =       52       50       74       89
+EG RATE 4      =       62       85      104       62
+EG LEVEL 1     =      127      127      127      127
+EG LEVEL 2     =      127       46       82       57
+EG LEVEL 3     =        0        0        0        0
+EG LEVEL 4     =        0        0        0        0
+RATE SCALING   =       85       43       43       85
+SCALING LD     =        0        0        0        0
+SCALING RD     =        0        0        0        0
+SCALING LC     =     +LIN     +LIN     +LIN     +LIN
+SCALING RC     =     -EXP     -EXP     -EXP     -EXP
+LFO AMD        =        0        0        0        0
+LFO PMD Off/On =       On       On       On       On
+PEG Off/On     =       On       On       On       On
+VELO SENS      =       45       45       45       53
+OUT LEVEL      =      127       77       65       63
+FEEDBACK       =        0        0       32       32
+FB TYPE        = Sawtooth Sawtooth Sawtooth Sawtooth
+FREQ MODE      =    Ratio    Ratio    Ratio    Fixed
+RATIO | FREQ   =      1.5     1.49      6.0    79.43
+   freq coarse =        1        1        6        8
+   freq fine   =       50       49        0       90
+FREQ DETUNE    =       -4        4       -4        1

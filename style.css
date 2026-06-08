@@ -1,0 +1,113 @@
+/* DXcontrol web app - dark terminal look matching the desktop version. */
+:root {
+  --mono: "Cascadia Mono", "Cascadia Code", Consolas, "Lucida Console",
+          "Courier New", monospace;
+  --text-bg: #0c0c0c;
+  --text-fg: #cccccc;
+  --sel-bg: #264f78;
+  --sel-fg: #ffffff;
+  --chrome-bg: #1e1e1e;
+  --chrome-fg: #e0e0e0;
+  --border: #333;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font: 11pt/1.4 var(--mono);
+  background: var(--chrome-bg);
+  color: var(--chrome-fg);
+}
+
+#controls {
+  padding: 10px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+label.check { gap: 4px; }
+
+select, button {
+  font: inherit;
+  background: #2a2a2a;
+  color: var(--chrome-fg);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  padding: 3px 6px;
+}
+
+button { cursor: pointer; }
+button:hover:not(:disabled) { background: #3a3a3a; }
+button:disabled { opacity: 0.5; cursor: default; }
+
+#midiOut, #midiIn { min-width: 18em; }
+
+main {
+  flex: 1;
+  display: flex;
+  min-height: 0;
+  padding: 10px;
+  gap: 10px;
+}
+
+#voices {
+  list-style: none;
+  margin: 0;
+  padding: 4px 0;
+  width: 16em;
+  overflow-y: auto;
+  background: var(--text-bg);
+  color: var(--text-fg);
+  border: 1px solid var(--border);
+}
+
+#voices li {
+  padding: 1px 10px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+#voices li:hover { background: #1a1a1a; }
+#voices li.selected { background: var(--sel-bg); color: var(--sel-fg); }
+
+#detail {
+  flex: 1;
+  margin: 0;
+  padding: 8px 12px;
+  overflow: auto;
+  background: var(--text-bg);
+  color: var(--text-fg);
+  border: 1px solid var(--border);
+  white-space: pre;
+}
+
+#status {
+  padding: 8px 10px;
+  border-top: 1px solid var(--border);
+  font-size: 10pt;
+  min-height: 2.2em;
+}
+
+#status.error { color: #f48771; }

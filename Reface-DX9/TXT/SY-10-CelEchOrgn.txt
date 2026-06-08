@@ -1,0 +1,54 @@
+VOICE NAME     = CelEchOrgn
+============================
+TRANSPOSE      =        0
+MONO/POLY      =     Poly
+PORTA TIME     =        0
+PB RANGE       =        4
+ALGORITHM      =        8
+LFO WAVE       = Triangle
+LFO SPEED      =       89
+LFO DELAY      =       85
+LFO PMD        =        4
+PEG RATE 1     =       39
+PEG RATE 2     =       39
+PEG RATE 3     =      127
+PEG RATE 4     =       39
+PEG LEVEL 1    =        0
+PEG LEVEL 2    =        0
+PEG LEVEL 3    =        0
+PEG LEVEL 4    =        0
+FX1 TYPE       =        0 (Thru)
+FX1 PARAM 1    =       64 (---)
+FX1 PARAM 2    =       64 (---)
+FX2 TYPE       =        0 (Thru)
+FX2 PARAM 1    =       64 (---)
+FX2 PARAM 2    =       64 (---)
+
+                      OP1      OP2      OP3      OP4     
+----------------------------------------------------
+OP Off/On      =       On       On       On       On
+EG RATE 1      =       24       34      127       34
+EG RATE 2      =       73      109       61      109
+EG RATE 3      =      102      102       77      102
+EG RATE 4      =       60       60       51       39
+EG LEVEL 1     =       82      119      127      119
+EG LEVEL 2     =      100      100      119      100
+EG LEVEL 3     =      114      114       80      114
+EG LEVEL 4     =       26        0       10        0
+RATE SCALING   =        0        0       43        0
+SCALING LD     =        0        0        0        0
+SCALING RD     =        1        1       18        3
+SCALING LC     =     -LIN     -LIN     -LIN     -LIN
+SCALING RC     =     -EXP     -EXP     -EXP     -EXP
+LFO AMD        =        0        0        0        0
+LFO PMD Off/On =       On       On       On       On
+PEG Off/On     =      Off      Off      Off      Off
+VELO SENS      =        0        0        0        0
+OUT LEVEL      =      111       89       73       61
+FEEDBACK       =        0        0        0       40
+FB TYPE        = Sawtooth Sawtooth Sawtooth Sawtooth
+FREQ MODE      =    Ratio    Ratio    Ratio    Ratio
+RATIO | FREQ   =      1.0     1.01      4.0      8.0
+   freq coarse =        1        1        4        8
+   freq fine   =        0        1        0        0
+FREQ DETUNE    =        2        0        0        2

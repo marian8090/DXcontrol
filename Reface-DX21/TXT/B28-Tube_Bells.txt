@@ -1,0 +1,54 @@
+VOICE NAME     = Tube Bells
+============================
+TRANSPOSE      =       12
+MONO/POLY      =     Poly
+PORTA TIME     =        0
+PB RANGE       =        4
+ALGORITHM      =        8
+LFO WAVE       = Triangle
+LFO SPEED      =        7
+LFO DELAY      =        0
+LFO PMD        =       10
+PEG RATE 1     =       39
+PEG RATE 2     =       39
+PEG RATE 3     =      127
+PEG RATE 4     =       39
+PEG LEVEL 1    =        0
+PEG LEVEL 2    =        0
+PEG LEVEL 3    =        0
+PEG LEVEL 4    =        0
+FX1 TYPE       =        3 (Chorus)
+FX1 PARAM 1    =       90 (Depth)
+FX1 PARAM 2    =        0 (Rate)
+FX2 TYPE       =        0 (Thru)
+FX2 PARAM 1    =       64 (---)
+FX2 PARAM 2    =       64 (---)
+
+                      OP1      OP2      OP3      OP4     
+----------------------------------------------------
+OP Off/On      =       On       On       On       On
+EG RATE 1      =      127      127      127      127
+EG RATE 2      =      127       85       47       26
+EG RATE 3      =       33       23       38       11
+EG RATE 4      =       33       33       43       21
+EG LEVEL 1     =      127      127      127      127
+EG LEVEL 2     =      111       95       28       69
+EG LEVEL 3     =        0       95        0        0
+EG LEVEL 4     =        0        0        0        0
+RATE SCALING   =       85       85       85        0
+SCALING LD     =        0        0        0        5
+SCALING RD     =        0        0        0       19
+SCALING LC     =     +LIN     +LIN     +LIN     +LIN
+SCALING RC     =     -EXP     -EXP     -EXP     -EXP
+LFO AMD        =        0        0        0        0
+LFO PMD Off/On =       On       On       On       On
+PEG Off/On     =       On       On       On       On
+VELO SENS      =        0        0        0        0
+OUT LEVEL      =      117       97      127       83
+FEEDBACK       =        0        0        0        5
+FB TYPE        = Sawtooth Sawtooth Sawtooth Sawtooth
+FREQ MODE      =    Ratio    Ratio    Ratio    Ratio
+RATIO | FREQ   =      1.0     1.41      1.0     1.41
+   freq coarse =        1        1        1        1
+   freq fine   =        0       41        0       41
+FREQ DETUNE    =       -4        4        4        0

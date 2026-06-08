@@ -1,0 +1,54 @@
+VOICE NAME     = EarthQuke 
+============================
+TRANSPOSE      =      -12
+MONO/POLY      =     Poly
+PORTA TIME     =        0
+PB RANGE       =        4
+ALGORITHM      =        2
+LFO WAVE       = Sawtooth Up
+LFO SPEED      =      127
+LFO DELAY      =        0
+LFO PMD        =       90
+PEG RATE 1     =       39
+PEG RATE 2     =       39
+PEG RATE 3     =      127
+PEG RATE 4     =       39
+PEG LEVEL 1    =        0
+PEG LEVEL 2    =        0
+PEG LEVEL 3    =        0
+PEG LEVEL 4    =        0
+FX1 TYPE       =        0 (Thru)
+FX1 PARAM 1    =       64 (---)
+FX1 PARAM 2    =       64 (---)
+FX2 TYPE       =        0 (Thru)
+FX2 PARAM 1    =       64 (---)
+FX2 PARAM 2    =       64 (---)
+
+                      OP1      OP2      OP3      OP4     
+----------------------------------------------------
+OP Off/On      =       On       On       On       On
+EG RATE 1      =       58       63       12       32
+EG RATE 2      =       85       85      102       67
+EG RATE 3      =       61       61      127       57
+EG RATE 4      =      127      127      127       56
+EG LEVEL 1     =      127      127      127      127
+EG LEVEL 2     =       56       56        0        0
+EG LEVEL 3     =       53       45        0        0
+EG LEVEL 4     =      127      127       64       54
+RATE SCALING   =       43       43        0       43
+SCALING LD     =        0        0        0        0
+SCALING RD     =        0        0       27      123
+SCALING LC     =     -LIN     -LIN     -LIN     -LIN
+SCALING RC     =     -EXP     -EXP     -EXP     -EXP
+LFO AMD        =       58        0       58        0
+LFO PMD Off/On =       On       On       On       On
+PEG Off/On     =      Off      Off      Off      Off
+VELO SENS      =        0        0        0        0
+OUT LEVEL      =      111       95      107       83
+FEEDBACK       =        0        0        0       56
+FB TYPE        = Sawtooth Sawtooth Sawtooth Sawtooth
+FREQ MODE      =    Ratio    Ratio    Ratio    Ratio
+RATIO | FREQ   =     0.54     0.56     1.02     7.92
+   freq coarse =        0        0        1        7
+   freq fine   =        8       12        2       92
+FREQ DETUNE    =        0        0        2        2

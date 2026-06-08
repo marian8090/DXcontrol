@@ -1,0 +1,54 @@
+VOICE NAME     = BreathOrgn
+============================
+TRANSPOSE      =       -7
+MONO/POLY      =     Poly
+PORTA TIME     =        0
+PB RANGE       =        4
+ALGORITHM      =        8
+LFO WAVE       = Sample & Hold 8
+LFO SPEED      =       91
+LFO DELAY      =        0
+LFO PMD        =       18
+PEG RATE 1     =       39
+PEG RATE 2     =       39
+PEG RATE 3     =      127
+PEG RATE 4     =       39
+PEG LEVEL 1    =        0
+PEG LEVEL 2    =        0
+PEG LEVEL 3    =        0
+PEG LEVEL 4    =        0
+FX1 TYPE       =        0 (Thru)
+FX1 PARAM 1    =       64 (---)
+FX1 PARAM 2    =       64 (---)
+FX2 TYPE       =        0 (Thru)
+FX2 PARAM 1    =       64 (---)
+FX2 PARAM 2    =       64 (---)
+
+                      OP1      OP2      OP3      OP4     
+----------------------------------------------------
+OP Off/On      =       On       On       On       On
+EG RATE 1      =       78       78       78       78
+EG RATE 2      =      127       40      127       59
+EG RATE 3      =       11       11       11       11
+EG RATE 4      =       60       21       60       21
+EG LEVEL 1     =      127      127      127      127
+EG LEVEL 2     =      127       82      127       82
+EG LEVEL 3     =      127       82      127       82
+EG LEVEL 4     =        0        0        0        0
+RATE SCALING   =        0        0        0        0
+SCALING LD     =        0        0        0        0
+SCALING RD     =        0        0        0        0
+SCALING LC     =     +LIN     +LIN     +LIN     +LIN
+SCALING RC     =     -EXP     -EXP     -EXP     -EXP
+LFO AMD        =        0        0        0        0
+LFO PMD Off/On =       On       On       On       On
+PEG Off/On     =       On       On       On       On
+VELO SENS      =       45       45       45       45
+OUT LEVEL      =      127       19      127       33
+FEEDBACK       =       16       16       64       49
+FB TYPE        =   Square   Square Sawtooth Sawtooth
+FREQ MODE      =    Ratio    Ratio    Ratio    Ratio
+RATIO | FREQ   =      1.5    22.49     1.49    23.55
+   freq coarse =        1       22        1       23
+   freq fine   =       50       49       49       55
+FREQ DETUNE    =       -4        0        4        0

@@ -1,0 +1,54 @@
+VOICE NAME     = Laser Gun2
+============================
+TRANSPOSE      =      -12
+MONO/POLY      =     Poly
+PORTA TIME     =        0
+PB RANGE       =        4
+ALGORITHM      =       12
+LFO WAVE       = Sawtooth Up
+LFO SPEED      =       91
+LFO DELAY      =        0
+LFO PMD        =       69
+PEG RATE 1     =       39
+PEG RATE 2     =       39
+PEG RATE 3     =      127
+PEG RATE 4     =       39
+PEG LEVEL 1    =        0
+PEG LEVEL 2    =        0
+PEG LEVEL 3    =        0
+PEG LEVEL 4    =        0
+FX1 TYPE       =        0 (Thru)
+FX1 PARAM 1    =       64 (---)
+FX1 PARAM 2    =       64 (---)
+FX2 TYPE       =        0 (Thru)
+FX2 PARAM 1    =       64 (---)
+FX2 PARAM 2    =       64 (---)
+
+                      OP1      OP2      OP3      OP4     
+----------------------------------------------------
+OP Off/On      =       On       On       On       On
+EG RATE 1      =      127      127      127       31
+EG RATE 2      =       58       86      127       25
+EG RATE 3      =       60      113      127      127
+EG RATE 4      =       64       74       98       42
+EG LEVEL 1     =      127      127      127      124
+EG LEVEL 2     =        0       47        0        0
+EG LEVEL 3     =        0      127      127      127
+EG LEVEL 4     =        0        0        0        0
+RATE SCALING   =        0        0        0        0
+SCALING LD     =        0        0        0        0
+SCALING RD     =        0        0        0        0
+SCALING LC     =     -LIN     -LIN     -LIN     -LIN
+SCALING RC     =     -EXP     -EXP     -EXP     -EXP
+LFO AMD        =        0        0        0        0
+LFO PMD Off/On =       On       On       On       On
+PEG Off/On     =      Off      Off      Off      Off
+VELO SENS      =        0        0        0        0
+OUT LEVEL      =      109       83       16      109
+FEEDBACK       =        0        0        0       56
+FB TYPE        = Sawtooth Sawtooth Sawtooth Sawtooth
+FREQ MODE      =    Ratio    Ratio    Ratio    Ratio
+RATIO | FREQ   =      5.0    19.19    17.17    0.505
+   freq coarse =        5       19       17        0
+   freq fine   =        0       19       17        1
+FREQ DETUNE    =        0        0       -5       -9

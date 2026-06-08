@@ -1,0 +1,54 @@
+VOICE NAME     = Flute     
+============================
+TRANSPOSE      =       12
+MONO/POLY      =     Poly
+PORTA TIME     =        0
+PB RANGE       =        2
+ALGORITHM      =        3
+LFO WAVE       = Triangle
+LFO SPEED      =       85
+LFO DELAY      =       52
+LFO PMD        =        7
+PEG RATE 1     =       39
+PEG RATE 2     =       39
+PEG RATE 3     =      127
+PEG RATE 4     =       39
+PEG LEVEL 1    =        0
+PEG LEVEL 2    =        0
+PEG LEVEL 3    =        0
+PEG LEVEL 4    =        0
+FX1 TYPE       =        0 (Thru)
+FX1 PARAM 1    =       64 (---)
+FX1 PARAM 2    =       64 (---)
+FX2 TYPE       =        0 (Thru)
+FX2 PARAM 1    =       64 (---)
+FX2 PARAM 2    =       64 (---)
+
+                      OP1      OP2      OP3      OP4     
+----------------------------------------------------
+OP Off/On      =       On       On       On       On
+EG RATE 1      =       95      105       95      127
+EG RATE 2      =      127      124      110      127
+EG RATE 3      =       17       11       11       11
+EG RATE 4      =      104       21       69       79
+EG LEVEL 1     =      127      127      127      127
+EG LEVEL 2     =      127      127       28      127
+EG LEVEL 3     =      127      127       28      127
+EG LEVEL 4     =        0        0        0        0
+RATE SCALING   =       43        0        0        0
+SCALING LD     =        0        3        0        2
+SCALING RD     =        0       11        0        9
+SCALING LC     =     +LIN     +LIN     +LIN     +LIN
+SCALING RC     =     -EXP     -EXP     -EXP     -EXP
+LFO AMD        =       18       18       18       18
+LFO PMD Off/On =       On       On       On       On
+PEG Off/On     =       On       On       On       On
+VELO SENS      =       45       45       45       53
+OUT LEVEL      =      109       59       91       85
+FEEDBACK       =        0        0       78        0
+FB TYPE        = Sawtooth Sawtooth Sawtooth Sawtooth
+FREQ MODE      =    Ratio    Ratio    Ratio    Ratio
+RATIO | FREQ   =      1.0      1.0     1.73      1.0
+   freq coarse =        1        1        1        1
+   freq fine   =        0        0       73        0
+FREQ DETUNE    =        0        0        0        0

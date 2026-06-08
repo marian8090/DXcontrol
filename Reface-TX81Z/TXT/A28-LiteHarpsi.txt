@@ -1,0 +1,54 @@
+VOICE NAME     = LiteHarpsi
+============================
+TRANSPOSE      =        0
+MONO/POLY      =     Poly
+PORTA TIME     =        0
+PB RANGE       =        2
+ALGORITHM      =        3
+LFO WAVE       = Triangle
+LFO SPEED      =       81
+LFO DELAY      =        0
+LFO PMD        =        0
+PEG RATE 1     =       39
+PEG RATE 2     =       39
+PEG RATE 3     =      127
+PEG RATE 4     =       39
+PEG LEVEL 1    =        0
+PEG LEVEL 2    =        0
+PEG LEVEL 3    =        0
+PEG LEVEL 4    =        0
+FX1 TYPE       =        0 (Thru)
+FX1 PARAM 1    =       64 (---)
+FX1 PARAM 2    =       64 (---)
+FX2 TYPE       =        0 (Thru)
+FX2 PARAM 1    =       64 (---)
+FX2 PARAM 2    =       64 (---)
+
+                      OP1      OP2      OP3      OP4     
+----------------------------------------------------
+OP Off/On      =       On       On       On       On
+EG RATE 1      =      127       59       71      127
+EG RATE 2      =      127       45       71      127
+EG RATE 3      =       47        5       17       29
+EG RATE 4      =       91       10       58       39
+EG LEVEL 1     =      127      127      127      127
+EG LEVEL 2     =       95      127      127       82
+EG LEVEL 3     =        0        0        0       82
+EG LEVEL 4     =        0       68       68        0
+RATE SCALING   =       85        0       85      127
+SCALING LD     =        0        0        7        0
+SCALING RD     =        0        0       28        0
+SCALING LC     =     +LIN     +LIN     +LIN     +LIN
+SCALING RC     =     -EXP     -EXP     -EXP     -EXP
+LFO AMD        =        0        0        0        0
+LFO PMD Off/On =       On       On       On       On
+PEG Off/On     =       On       On       On       On
+VELO SENS      =        0       37       37        0
+OUT LEVEL      =      115       97       94      113
+FEEDBACK       =       32       16        0       28
+FB TYPE        = Sawtooth   Square Sawtooth Sawtooth
+FREQ MODE      =    Ratio    Ratio    Ratio    Ratio
+RATIO | FREQ   =      4.0      1.0      8.0      1.0
+   freq coarse =        4        1        8        1
+   freq fine   =        0        0        0        0
+FREQ DETUNE    =        0        0        0        0

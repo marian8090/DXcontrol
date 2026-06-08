@@ -1,0 +1,54 @@
+VOICE NAME     = PINK NOISE
+============================
+TRANSPOSE      =      -12
+MONO/POLY      =     Poly
+PORTA TIME     =        0
+PB RANGE       =        4
+ALGORITHM      =        2
+LFO WAVE       = Triangle
+LFO SPEED      =       91
+LFO DELAY      =        0
+LFO PMD        =        0
+PEG RATE 1     =       39
+PEG RATE 2     =       39
+PEG RATE 3     =      127
+PEG RATE 4     =       39
+PEG LEVEL 1    =       25
+PEG LEVEL 2    =        0
+PEG LEVEL 3    =        0
+PEG LEVEL 4    =        0
+FX1 TYPE       =        0 (Thru)
+FX1 PARAM 1    =       64 (---)
+FX1 PARAM 2    =       64 (---)
+FX2 TYPE       =        0 (Thru)
+FX2 PARAM 1    =       64 (---)
+FX2 PARAM 2    =       64 (---)
+
+                      OP1      OP2      OP3      OP4     
+----------------------------------------------------
+OP Off/On      =       On       On       On       On
+EG RATE 1      =       74      127      127      127
+EG RATE 2      =       17       17       17       17
+EG RATE 3      =      127      127      127      127
+EG RATE 4      =       94       85       75       66
+EG LEVEL 1     =      127      127      127      127
+EG LEVEL 2     =        0        0        0        0
+EG LEVEL 3     =        0        0        0        0
+EG LEVEL 4     =        0        0        0        0
+RATE SCALING   =       43       43       43       43
+SCALING LD     =        2        2        2        2
+SCALING RD     =        8        8        8        8
+SCALING LC     =     +LIN     +LIN     +LIN     +LIN
+SCALING RC     =     -EXP     -EXP     -EXP     -EXP
+LFO AMD        =        0        0        0        0
+LFO PMD Off/On =       On       On       On       On
+PEG Off/On     =       On       On       On       On
+VELO SENS      =        0        0        0        0
+OUT LEVEL      =      125      125      125      125
+FEEDBACK       =        0        0        0       63
+FB TYPE        = Sawtooth Sawtooth Sawtooth Sawtooth
+FREQ MODE      =    Ratio    Ratio    Ratio    Ratio
+RATIO | FREQ   =    25.95    25.95    25.95    25.95
+   freq coarse =       25       25       25       25
+   freq fine   =       95       95       95       95
+FREQ DETUNE    =        0        0        0        0

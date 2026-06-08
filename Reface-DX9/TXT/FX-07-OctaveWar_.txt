@@ -1,0 +1,54 @@
+VOICE NAME     = OctaveWar 
+============================
+TRANSPOSE      =       -7
+MONO/POLY      =     Poly
+PORTA TIME     =        0
+PB RANGE       =        4
+ALGORITHM      =        3
+LFO WAVE       =   Square
+LFO SPEED      =       72
+LFO DELAY      =        0
+LFO PMD        =       69
+PEG RATE 1     =       39
+PEG RATE 2     =       39
+PEG RATE 3     =      127
+PEG RATE 4     =       39
+PEG LEVEL 1    =        0
+PEG LEVEL 2    =        0
+PEG LEVEL 3    =        0
+PEG LEVEL 4    =        0
+FX1 TYPE       =        0 (Thru)
+FX1 PARAM 1    =       64 (---)
+FX1 PARAM 2    =       64 (---)
+FX2 TYPE       =        0 (Thru)
+FX2 PARAM 1    =       64 (---)
+FX2 PARAM 2    =       64 (---)
+
+                      OP1      OP2      OP3      OP4     
+----------------------------------------------------
+OP Off/On      =       On       On       On       On
+EG RATE 1      =       67      120      113       67
+EG RATE 2      =       21       60       60       21
+EG RATE 3      =       77       54       54       77
+EG RATE 4      =       42       65       65       42
+EG LEVEL 1     =      127      127      127      127
+EG LEVEL 2     =       92      127      127       92
+EG LEVEL 3     =      114      126      126      114
+EG LEVEL 4     =        0        6        6        0
+RATE SCALING   =       43       43      127       43
+SCALING LD     =        0        0        0        0
+SCALING RD     =      123       14      105      123
+SCALING LC     =     -LIN     -LIN     -LIN     -LIN
+SCALING RC     =     -EXP     -EXP     -EXP     -EXP
+LFO AMD        =        0        0        0        0
+LFO PMD Off/On =       On       On       On       On
+PEG Off/On     =      Off      Off      Off      Off
+VELO SENS      =        0        0        0        0
+OUT LEVEL      =      111       41       51       16
+FEEDBACK       =        0        0       48        0
+FB TYPE        = Sawtooth Sawtooth Sawtooth Sawtooth
+FREQ MODE      =    Ratio    Ratio    Ratio    Ratio
+RATIO | FREQ   =      2.0     1.01      0.5     8.08
+   freq coarse =        2        1        0        8
+   freq fine   =        0        1        0        8
+FREQ DETUNE    =        0        2        2        0

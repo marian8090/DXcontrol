@@ -1,0 +1,54 @@
+VOICE NAME     = MelloTenor
+============================
+TRANSPOSE      =      -12
+MONO/POLY      =     Poly
+PORTA TIME     =        0
+PB RANGE       =        4
+ALGORITHM      =        3
+LFO WAVE       = Triangle
+LFO SPEED      =       85
+LFO DELAY      =       65
+LFO PMD        =        9
+PEG RATE 1     =       39
+PEG RATE 2     =       39
+PEG RATE 3     =      127
+PEG RATE 4     =       39
+PEG LEVEL 1    =        0
+PEG LEVEL 2    =        0
+PEG LEVEL 3    =        0
+PEG LEVEL 4    =        0
+FX1 TYPE       =        0 (Thru)
+FX1 PARAM 1    =       64 (---)
+FX1 PARAM 2    =       64 (---)
+FX2 TYPE       =        0 (Thru)
+FX2 PARAM 1    =       64 (---)
+FX2 PARAM 2    =       64 (---)
+
+                      OP1      OP2      OP3      OP4     
+----------------------------------------------------
+OP Off/On      =       On       On       On       On
+EG RATE 1      =      101       75       86       52
+EG RATE 2      =      127      105       69       18
+EG RATE 3      =       17       15       21       11
+EG RATE 4      =      113       37       81       38
+EG LEVEL 1     =      127      127      127      127
+EG LEVEL 2     =      127      127       91      119
+EG LEVEL 3     =      127      127       91      119
+EG LEVEL 4     =        0       28       28       68
+RATE SCALING   =       43       43       85       43
+SCALING LD     =        0       11       22       11
+SCALING RD     =        0       44       84       43
+SCALING LC     =     +LIN     +LIN     +LIN     +LIN
+SCALING RC     =     -EXP     -EXP     -EXP     -EXP
+LFO AMD        =        0        0        0        0
+LFO PMD Off/On =       On       On       On       On
+PEG Off/On     =       On       On       On       On
+VELO SENS      =       45       45       53       37
+OUT LEVEL      =      127       97       65       89
+FEEDBACK       =       32       16       32       77
+FB TYPE        = Sawtooth   Square Sawtooth Sawtooth
+FREQ MODE      =    Ratio    Ratio    Ratio    Ratio
+RATIO | FREQ   =      2.0      1.0     11.0      1.0
+   freq coarse =        2        1       11        1
+   freq fine   =        0        0        0        0
+FREQ DETUNE    =        0        0        0        0

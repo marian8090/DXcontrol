@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DXcontrol - reface DX patch sender</title>
+  <link rel="icon" href="dxcontrol.ico" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header id="controls">
+    <div class="row">
+      <label>Library
+        <select id="library"></select>
+      </label>
+      <label>MIDI Out
+        <select id="midiOut"></select>
+      </label>
+      <button id="refresh" type="button">Refresh</button>
+      <label class="check">
+        <input type="checkbox" id="audition" checked /> Audition (play 1s)
+      </label>
+    </div>
+    <div class="row">
+      <label>MIDI In
+        <select id="midiIn"></select>
+      </label>
+      <button id="load" type="button">Load current voice from synth</button>
+    </div>
+  </header>
+
+  <main>
+    <ul id="voices" tabindex="0" aria-label="Voices"></ul>
+    <pre id="detail">(no voice selected)</pre>
+  </main>
+
+  <footer id="status">Select a voice to send it.</footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

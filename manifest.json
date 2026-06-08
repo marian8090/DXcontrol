@@ -1,0 +1,1890 @@
+{
+  "libraries": {
+    "Reface-DX21": [
+      {
+        "name": "A01-Deep_Grand",
+        "syx": "Reface-DX21/SYX/A01-Deep_Grand.syx",
+        "txt": "Reface-DX21/TXT/A01-Deep_Grand.txt"
+      },
+      {
+        "name": "A02-Uprt_Piano",
+        "syx": "Reface-DX21/SYX/A02-Uprt_Piano.syx",
+        "txt": "Reface-DX21/TXT/A02-Uprt_Piano.txt"
+      },
+      {
+        "name": "A03-HonkeyTonk",
+        "syx": "Reface-DX21/SYX/A03-HonkeyTonk.syx",
+        "txt": "Reface-DX21/TXT/A03-HonkeyTonk.txt"
+      },
+      {
+        "name": "A04-IvoryEbony",
+        "syx": "Reface-DX21/SYX/A04-IvoryEbony.syx",
+        "txt": "Reface-DX21/TXT/A04-IvoryEbony.txt"
+      },
+      {
+        "name": "A05-PhaseGrand",
+        "syx": "Reface-DX21/SYX/A05-PhaseGrand.syx",
+        "txt": "Reface-DX21/TXT/A05-PhaseGrand.txt"
+      },
+      {
+        "name": "A06-Elec_Grand",
+        "syx": "Reface-DX21/SYX/A06-Elec_Grand.syx",
+        "txt": "Reface-DX21/TXT/A06-Elec_Grand.txt"
+      },
+      {
+        "name": "A07-Pianobells",
+        "syx": "Reface-DX21/SYX/A07-Pianobells.syx",
+        "txt": "Reface-DX21/TXT/A07-Pianobells.txt"
+      },
+      {
+        "name": "A08-Acous_Elec",
+        "syx": "Reface-DX21/SYX/A08-Acous_Elec.syx",
+        "txt": "Reface-DX21/TXT/A08-Acous_Elec.txt"
+      },
+      {
+        "name": "A09-OldElectro",
+        "syx": "Reface-DX21/SYX/A09-OldElectro.syx",
+        "txt": "Reface-DX21/TXT/A09-OldElectro.txt"
+      },
+      {
+        "name": "A10-NewElectro",
+        "syx": "Reface-DX21/SYX/A10-NewElectro.syx",
+        "txt": "Reface-DX21/TXT/A10-NewElectro.txt"
+      },
+      {
+        "name": "A11-High_Tines",
+        "syx": "Reface-DX21/SYX/A11-High_Tines.syx",
+        "txt": "Reface-DX21/TXT/A11-High_Tines.txt"
+      },
+      {
+        "name": "A12-Hard_Tines",
+        "syx": "Reface-DX21/SYX/A12-Hard_Tines.syx",
+        "txt": "Reface-DX21/TXT/A12-Hard_Tines.txt"
+      },
+      {
+        "name": "A13-PercoPiano",
+        "syx": "Reface-DX21/SYX/A13-PercoPiano.syx",
+        "txt": "Reface-DX21/TXT/A13-PercoPiano.txt"
+      },
+      {
+        "name": "A14-Wood_Piano",
+        "syx": "Reface-DX21/SYX/A14-Wood_Piano.syx",
+        "txt": "Reface-DX21/TXT/A14-Wood_Piano.txt"
+      },
+      {
+        "name": "A15-Vibrabelle",
+        "syx": "Reface-DX21/SYX/A15-Vibrabelle.syx",
+        "txt": "Reface-DX21/TXT/A15-Vibrabelle.txt"
+      },
+      {
+        "name": "A16-Pianobrass",
+        "syx": "Reface-DX21/SYX/A16-Pianobrass.syx",
+        "txt": "Reface-DX21/TXT/A16-Pianobrass.txt"
+      },
+      {
+        "name": "A17-Clickorgan",
+        "syx": "Reface-DX21/SYX/A17-Clickorgan.syx",
+        "txt": "Reface-DX21/TXT/A17-Clickorgan.txt"
+      },
+      {
+        "name": "A18-Jazz_Organ",
+        "syx": "Reface-DX21/SYX/A18-Jazz_Organ.syx",
+        "txt": "Reface-DX21/TXT/A18-Jazz_Organ.txt"
+      },
+      {
+        "name": "A19-Ham_n_Eggs",
+        "syx": "Reface-DX21/SYX/A19-Ham_n_Eggs.syx",
+        "txt": "Reface-DX21/TXT/A19-Ham_n_Eggs.txt"
+      },
+      {
+        "name": "A20-Drawbars__",
+        "syx": "Reface-DX21/SYX/A20-Drawbars__.syx",
+        "txt": "Reface-DX21/TXT/A20-Drawbars__.txt"
+      },
+      {
+        "name": "A21-Club_Organ",
+        "syx": "Reface-DX21/SYX/A21-Club_Organ.syx",
+        "txt": "Reface-DX21/TXT/A21-Club_Organ.txt"
+      },
+      {
+        "name": "A22-_6_Tease__",
+        "syx": "Reface-DX21/SYX/A22-_6_Tease__.syx",
+        "txt": "Reface-DX21/TXT/A22-_6_Tease__.txt"
+      },
+      {
+        "name": "A23-GentlePipe",
+        "syx": "Reface-DX21/SYX/A23-GentlePipe.syx",
+        "txt": "Reface-DX21/TXT/A23-GentlePipe.txt"
+      },
+      {
+        "name": "A24-Full_Ranks",
+        "syx": "Reface-DX21/SYX/A24-Full_Ranks.syx",
+        "txt": "Reface-DX21/TXT/A24-Full_Ranks.txt"
+      },
+      {
+        "name": "A25-Strings___",
+        "syx": "Reface-DX21/SYX/A25-Strings___.syx",
+        "txt": "Reface-DX21/TXT/A25-Strings___.txt"
+      },
+      {
+        "name": "A26-Silk_Cello",
+        "syx": "Reface-DX21/SYX/A26-Silk_Cello.syx",
+        "txt": "Reface-DX21/TXT/A26-Silk_Cello.txt"
+      },
+      {
+        "name": "A27-Orchestra_",
+        "syx": "Reface-DX21/SYX/A27-Orchestra_.syx",
+        "txt": "Reface-DX21/TXT/A27-Orchestra_.txt"
+      },
+      {
+        "name": "A28-SoloViolin",
+        "syx": "Reface-DX21/SYX/A28-SoloViolin.syx",
+        "txt": "Reface-DX21/TXT/A28-SoloViolin.txt"
+      },
+      {
+        "name": "A29-Box_Cello_",
+        "syx": "Reface-DX21/SYX/A29-Box_Cello_.syx",
+        "txt": "Reface-DX21/TXT/A29-Box_Cello_.txt"
+      },
+      {
+        "name": "A30-Richstring",
+        "syx": "Reface-DX21/SYX/A30-Richstring.syx",
+        "txt": "Reface-DX21/TXT/A30-Richstring.txt"
+      },
+      {
+        "name": "A31-5th_String",
+        "syx": "Reface-DX21/SYX/A31-5th_String.syx",
+        "txt": "Reface-DX21/TXT/A31-5th_String.txt"
+      },
+      {
+        "name": "A32-Pizzicato_",
+        "syx": "Reface-DX21/SYX/A32-Pizzicato_.syx",
+        "txt": "Reface-DX21/TXT/A32-Pizzicato_.txt"
+      },
+      {
+        "name": "B01-Horns_____",
+        "syx": "Reface-DX21/SYX/B01-Horns_____.syx",
+        "txt": "Reface-DX21/TXT/B01-Horns_____.txt"
+      },
+      {
+        "name": "B02-BriteBrass",
+        "syx": "Reface-DX21/SYX/B02-BriteBrass.syx",
+        "txt": "Reface-DX21/TXT/B02-BriteBrass.txt"
+      },
+      {
+        "name": "B03-Flugelhorn",
+        "syx": "Reface-DX21/SYX/B03-Flugelhorn.syx",
+        "txt": "Reface-DX21/TXT/B03-Flugelhorn.txt"
+      },
+      {
+        "name": "B04-Trombone__",
+        "syx": "Reface-DX21/SYX/B04-Trombone__.syx",
+        "txt": "Reface-DX21/TXT/B04-Trombone__.txt"
+      },
+      {
+        "name": "B05-Hard_Brass",
+        "syx": "Reface-DX21/SYX/B05-Hard_Brass.syx",
+        "txt": "Reface-DX21/TXT/B05-Hard_Brass.txt"
+      },
+      {
+        "name": "B06-PowerBrass",
+        "syx": "Reface-DX21/SYX/B06-PowerBrass.syx",
+        "txt": "Reface-DX21/TXT/B06-PowerBrass.txt"
+      },
+      {
+        "name": "B07-BC1_Horns_",
+        "syx": "Reface-DX21/SYX/B07-BC1_Horns_.syx",
+        "txt": "Reface-DX21/TXT/B07-BC1_Horns_.txt"
+      },
+      {
+        "name": "B08-BC1Trumpet",
+        "syx": "Reface-DX21/SYX/B08-BC1Trumpet.syx",
+        "txt": "Reface-DX21/TXT/B08-BC1Trumpet.txt"
+      },
+      {
+        "name": "B09-Plukguitar",
+        "syx": "Reface-DX21/SYX/B09-Plukguitar.syx",
+        "txt": "Reface-DX21/TXT/B09-Plukguitar.txt"
+      },
+      {
+        "name": "B10-Brt_Guitar",
+        "syx": "Reface-DX21/SYX/B10-Brt_Guitar.syx",
+        "txt": "Reface-DX21/TXT/B10-Brt_Guitar.txt"
+      },
+      {
+        "name": "B11-Soft_Harp_",
+        "syx": "Reface-DX21/SYX/B11-Soft_Harp_.syx",
+        "txt": "Reface-DX21/TXT/B11-Soft_Harp_.txt"
+      },
+      {
+        "name": "B12-Sitar_____",
+        "syx": "Reface-DX21/SYX/B12-Sitar_____.syx",
+        "txt": "Reface-DX21/TXT/B12-Sitar_____.txt"
+      },
+      {
+        "name": "B13-Jazz_Guit_",
+        "syx": "Reface-DX21/SYX/B13-Jazz_Guit_.syx",
+        "txt": "Reface-DX21/TXT/B13-Jazz_Guit_.txt"
+      },
+      {
+        "name": "B14-Old_Banjo_",
+        "syx": "Reface-DX21/SYX/B14-Old_Banjo_.syx",
+        "txt": "Reface-DX21/TXT/B14-Old_Banjo_.txt"
+      },
+      {
+        "name": "B15-Kotokoto__",
+        "syx": "Reface-DX21/SYX/B15-Kotokoto__.syx",
+        "txt": "Reface-DX21/TXT/B15-Kotokoto__.txt"
+      },
+      {
+        "name": "B16-Folk_Guit_",
+        "syx": "Reface-DX21/SYX/B16-Folk_Guit_.syx",
+        "txt": "Reface-DX21/TXT/B16-Folk_Guit_.txt"
+      },
+      {
+        "name": "B17-Easy_Synth",
+        "syx": "Reface-DX21/SYX/B17-Easy_Synth.syx",
+        "txt": "Reface-DX21/TXT/B17-Easy_Synth.txt"
+      },
+      {
+        "name": "B18-Easy_Clav_",
+        "syx": "Reface-DX21/SYX/B18-Easy_Clav_.syx",
+        "txt": "Reface-DX21/TXT/B18-Easy_Clav_.txt"
+      },
+      {
+        "name": "B19-__WOW_____",
+        "syx": "Reface-DX21/SYX/B19-__WOW_____.syx",
+        "txt": "Reface-DX21/TXT/B19-__WOW_____.txt"
+      },
+      {
+        "name": "B20-Metal_Keys",
+        "syx": "Reface-DX21/SYX/B20-Metal_Keys.syx",
+        "txt": "Reface-DX21/TXT/B20-Metal_Keys.txt"
+      },
+      {
+        "name": "B21-Cheeky____",
+        "syx": "Reface-DX21/SYX/B21-Cheeky____.syx",
+        "txt": "Reface-DX21/TXT/B21-Cheeky____.txt"
+      },
+      {
+        "name": "B22-RubberBand",
+        "syx": "Reface-DX21/SYX/B22-RubberBand.syx",
+        "txt": "Reface-DX21/TXT/B22-RubberBand.txt"
+      },
+      {
+        "name": "B23-PickPluck_",
+        "syx": "Reface-DX21/SYX/B23-PickPluck_.syx",
+        "txt": "Reface-DX21/TXT/B23-PickPluck_.txt"
+      },
+      {
+        "name": "B24-S_H_Synth_",
+        "syx": "Reface-DX21/SYX/B24-S_H_Synth_.syx",
+        "txt": "Reface-DX21/TXT/B24-S_H_Synth_.txt"
+      },
+      {
+        "name": "B25-Glocken___",
+        "syx": "Reface-DX21/SYX/B25-Glocken___.syx",
+        "txt": "Reface-DX21/TXT/B25-Glocken___.txt"
+      },
+      {
+        "name": "B26-Hamarimba_",
+        "syx": "Reface-DX21/SYX/B26-Hamarimba_.syx",
+        "txt": "Reface-DX21/TXT/B26-Hamarimba_.txt"
+      },
+      {
+        "name": "B27-SteelDrums",
+        "syx": "Reface-DX21/SYX/B27-SteelDrums.syx",
+        "txt": "Reface-DX21/TXT/B27-SteelDrums.txt"
+      },
+      {
+        "name": "B28-Tube_Bells",
+        "syx": "Reface-DX21/SYX/B28-Tube_Bells.syx",
+        "txt": "Reface-DX21/TXT/B28-Tube_Bells.txt"
+      },
+      {
+        "name": "B29-Templegong",
+        "syx": "Reface-DX21/SYX/B29-Templegong.syx",
+        "txt": "Reface-DX21/TXT/B29-Templegong.txt"
+      },
+      {
+        "name": "B30-Mamarimba_",
+        "syx": "Reface-DX21/SYX/B30-Mamarimba_.syx",
+        "txt": "Reface-DX21/TXT/B30-Mamarimba_.txt"
+      },
+      {
+        "name": "B31-Good_Vibes",
+        "syx": "Reface-DX21/SYX/B31-Good_Vibes.syx",
+        "txt": "Reface-DX21/TXT/B31-Good_Vibes.txt"
+      },
+      {
+        "name": "B32-BellsBells",
+        "syx": "Reface-DX21/SYX/B32-BellsBells.syx",
+        "txt": "Reface-DX21/TXT/B32-BellsBells.txt"
+      },
+      {
+        "name": "C01-ElectroTom",
+        "syx": "Reface-DX21/SYX/C01-ElectroTom.syx",
+        "txt": "Reface-DX21/TXT/C01-ElectroTom.txt"
+      },
+      {
+        "name": "C02-Timpani___",
+        "syx": "Reface-DX21/SYX/C02-Timpani___.syx",
+        "txt": "Reface-DX21/TXT/C02-Timpani___.txt"
+      },
+      {
+        "name": "C03-Breakin___",
+        "syx": "Reface-DX21/SYX/C03-Breakin___.syx",
+        "txt": "Reface-DX21/TXT/C03-Breakin___.txt"
+      },
+      {
+        "name": "C04-Xylosnare_",
+        "syx": "Reface-DX21/SYX/C04-Xylosnare_.syx",
+        "txt": "Reface-DX21/TXT/C04-Xylosnare_.txt"
+      },
+      {
+        "name": "C05-Synballs__",
+        "syx": "Reface-DX21/SYX/C05-Synballs__.syx",
+        "txt": "Reface-DX21/TXT/C05-Synballs__.txt"
+      },
+      {
+        "name": "C06-Hand_Drum_",
+        "syx": "Reface-DX21/SYX/C06-Hand_Drum_.syx",
+        "txt": "Reface-DX21/TXT/C06-Hand_Drum_.txt"
+      },
+      {
+        "name": "C07-Clockwerks",
+        "syx": "Reface-DX21/SYX/C07-Clockwerks.syx",
+        "txt": "Reface-DX21/TXT/C07-Clockwerks.txt"
+      },
+      {
+        "name": "C08-HeiferBell",
+        "syx": "Reface-DX21/SYX/C08-HeiferBell.syx",
+        "txt": "Reface-DX21/TXT/C08-HeiferBell.txt"
+      },
+      {
+        "name": "C09-Heavysynth",
+        "syx": "Reface-DX21/SYX/C09-Heavysynth.syx",
+        "txt": "Reface-DX21/TXT/C09-Heavysynth.txt"
+      },
+      {
+        "name": "C10-Harmosolo_",
+        "syx": "Reface-DX21/SYX/C10-Harmosolo_.syx",
+        "txt": "Reface-DX21/TXT/C10-Harmosolo_.txt"
+      },
+      {
+        "name": "C11-Feed_Lead_",
+        "syx": "Reface-DX21/SYX/C11-Feed_Lead_.syx",
+        "txt": "Reface-DX21/TXT/C11-Feed_Lead_.txt"
+      },
+      {
+        "name": "C12-Mono_Lead_",
+        "syx": "Reface-DX21/SYX/C12-Mono_Lead_.syx",
+        "txt": "Reface-DX21/TXT/C12-Mono_Lead_.txt"
+      },
+      {
+        "name": "C13-Hollowlead",
+        "syx": "Reface-DX21/SYX/C13-Hollowlead.syx",
+        "txt": "Reface-DX21/TXT/C13-Hollowlead.txt"
+      },
+      {
+        "name": "C14-Lyrisyn___",
+        "syx": "Reface-DX21/SYX/C14-Lyrisyn___.syx",
+        "txt": "Reface-DX21/TXT/C14-Lyrisyn___.txt"
+      },
+      {
+        "name": "C15-Schmooh___",
+        "syx": "Reface-DX21/SYX/C15-Schmooh___.syx",
+        "txt": "Reface-DX21/TXT/C15-Schmooh___.txt"
+      },
+      {
+        "name": "C16-Huff_Talk_",
+        "syx": "Reface-DX21/SYX/C16-Huff_Talk_.syx",
+        "txt": "Reface-DX21/TXT/C16-Huff_Talk_.txt"
+      },
+      {
+        "name": "C17-Harpsi_low",
+        "syx": "Reface-DX21/SYX/C17-Harpsi_low.syx",
+        "txt": "Reface-DX21/TXT/C17-Harpsi_low.txt"
+      },
+      {
+        "name": "C18-Harpsi_Hi_",
+        "syx": "Reface-DX21/SYX/C18-Harpsi_Hi_.syx",
+        "txt": "Reface-DX21/TXT/C18-Harpsi_Hi_.txt"
+      },
+      {
+        "name": "C19-Fuzz_Clav_",
+        "syx": "Reface-DX21/SYX/C19-Fuzz_Clav_.syx",
+        "txt": "Reface-DX21/TXT/C19-Fuzz_Clav_.txt"
+      },
+      {
+        "name": "C20-Clear_Clav",
+        "syx": "Reface-DX21/SYX/C20-Clear_Clav.syx",
+        "txt": "Reface-DX21/TXT/C20-Clear_Clav.txt"
+      },
+      {
+        "name": "C21-Mute_Clav_",
+        "syx": "Reface-DX21/SYX/C21-Mute_Clav_.syx",
+        "txt": "Reface-DX21/TXT/C21-Mute_Clav_.txt"
+      },
+      {
+        "name": "C22-Squeezebox",
+        "syx": "Reface-DX21/SYX/C22-Squeezebox.syx",
+        "txt": "Reface-DX21/TXT/C22-Squeezebox.txt"
+      },
+      {
+        "name": "C23-Celeste___",
+        "syx": "Reface-DX21/SYX/C23-Celeste___.syx",
+        "txt": "Reface-DX21/TXT/C23-Celeste___.txt"
+      },
+      {
+        "name": "C24-Circustime",
+        "syx": "Reface-DX21/SYX/C24-Circustime.syx",
+        "txt": "Reface-DX21/TXT/C24-Circustime.txt"
+      },
+      {
+        "name": "C25-Claranette",
+        "syx": "Reface-DX21/SYX/C25-Claranette.syx",
+        "txt": "Reface-DX21/TXT/C25-Claranette.txt"
+      },
+      {
+        "name": "C26-Bassoon___",
+        "syx": "Reface-DX21/SYX/C26-Bassoon___.syx",
+        "txt": "Reface-DX21/TXT/C26-Bassoon___.txt"
+      },
+      {
+        "name": "C27-Pan_Floot_",
+        "syx": "Reface-DX21/SYX/C27-Pan_Floot_.syx",
+        "txt": "Reface-DX21/TXT/C27-Pan_Floot_.txt"
+      },
+      {
+        "name": "C28-Lead_Reed_",
+        "syx": "Reface-DX21/SYX/C28-Lead_Reed_.syx",
+        "txt": "Reface-DX21/TXT/C28-Lead_Reed_.txt"
+      },
+      {
+        "name": "C29-Mono_Sax__",
+        "syx": "Reface-DX21/SYX/C29-Mono_Sax__.syx",
+        "txt": "Reface-DX21/TXT/C29-Mono_Sax__.txt"
+      },
+      {
+        "name": "C30-Flutewood_",
+        "syx": "Reface-DX21/SYX/C30-Flutewood_.syx",
+        "txt": "Reface-DX21/TXT/C30-Flutewood_.txt"
+      },
+      {
+        "name": "C31-_BC1__Sax_",
+        "syx": "Reface-DX21/SYX/C31-_BC1__Sax_.syx",
+        "txt": "Reface-DX21/TXT/C31-_BC1__Sax_.txt"
+      },
+      {
+        "name": "C32-BC1_Hrmnca",
+        "syx": "Reface-DX21/SYX/C32-BC1_Hrmnca.syx",
+        "txt": "Reface-DX21/TXT/C32-BC1_Hrmnca.txt"
+      },
+      {
+        "name": "D01-Solid_Bass",
+        "syx": "Reface-DX21/SYX/D01-Solid_Bass.syx",
+        "txt": "Reface-DX21/TXT/D01-Solid_Bass.txt"
+      },
+      {
+        "name": "D02-Pluck_Bass",
+        "syx": "Reface-DX21/SYX/D02-Pluck_Bass.syx",
+        "txt": "Reface-DX21/TXT/D02-Pluck_Bass.txt"
+      },
+      {
+        "name": "D03-SyntheBass",
+        "syx": "Reface-DX21/SYX/D03-SyntheBass.syx",
+        "txt": "Reface-DX21/TXT/D03-SyntheBass.txt"
+      },
+      {
+        "name": "D04-Mono_Bass_",
+        "syx": "Reface-DX21/SYX/D04-Mono_Bass_.syx",
+        "txt": "Reface-DX21/TXT/D04-Mono_Bass_.txt"
+      },
+      {
+        "name": "D05-Flap_Bass_",
+        "syx": "Reface-DX21/SYX/D05-Flap_Bass_.syx",
+        "txt": "Reface-DX21/TXT/D05-Flap_Bass_.txt"
+      },
+      {
+        "name": "D06-Elec_Bass_",
+        "syx": "Reface-DX21/SYX/D06-Elec_Bass_.syx",
+        "txt": "Reface-DX21/TXT/D06-Elec_Bass_.txt"
+      },
+      {
+        "name": "D07-Uprt_Bass_",
+        "syx": "Reface-DX21/SYX/D07-Uprt_Bass_.syx",
+        "txt": "Reface-DX21/TXT/D07-Uprt_Bass_.txt"
+      },
+      {
+        "name": "D08-Fretless__",
+        "syx": "Reface-DX21/SYX/D08-Fretless__.syx",
+        "txt": "Reface-DX21/TXT/D08-Fretless__.txt"
+      },
+      {
+        "name": "D09-Racing_Car",
+        "syx": "Reface-DX21/SYX/D09-Racing_Car.syx",
+        "txt": "Reface-DX21/TXT/D09-Racing_Car.txt"
+      },
+      {
+        "name": "D10-Helicopter",
+        "syx": "Reface-DX21/SYX/D10-Helicopter.syx",
+        "txt": "Reface-DX21/TXT/D10-Helicopter.txt"
+      },
+      {
+        "name": "D11-Alarm_Call",
+        "syx": "Reface-DX21/SYX/D11-Alarm_Call.syx",
+        "txt": "Reface-DX21/TXT/D11-Alarm_Call.txt"
+      },
+      {
+        "name": "D12-Ghosties__",
+        "syx": "Reface-DX21/SYX/D12-Ghosties__.syx",
+        "txt": "Reface-DX21/TXT/D12-Ghosties__.txt"
+      },
+      {
+        "name": "D13-Dopplar_FX",
+        "syx": "Reface-DX21/SYX/D13-Dopplar_FX.syx",
+        "txt": "Reface-DX21/TXT/D13-Dopplar_FX.txt"
+      },
+      {
+        "name": "D14-Storm_Wind",
+        "syx": "Reface-DX21/SYX/D14-Storm_Wind.syx",
+        "txt": "Reface-DX21/TXT/D14-Storm_Wind.txt"
+      },
+      {
+        "name": "D15-Space_Talk",
+        "syx": "Reface-DX21/SYX/D15-Space_Talk.syx",
+        "txt": "Reface-DX21/TXT/D15-Space_Talk.txt"
+      },
+      {
+        "name": "D16-Birds_____",
+        "syx": "Reface-DX21/SYX/D16-Birds_____.syx",
+        "txt": "Reface-DX21/TXT/D16-Birds_____.txt"
+      },
+      {
+        "name": "D17-Diesel____",
+        "syx": "Reface-DX21/SYX/D17-Diesel____.syx",
+        "txt": "Reface-DX21/TXT/D17-Diesel____.txt"
+      },
+      {
+        "name": "D18-Hole_in_1_",
+        "syx": "Reface-DX21/SYX/D18-Hole_in_1_.syx",
+        "txt": "Reface-DX21/TXT/D18-Hole_in_1_.txt"
+      },
+      {
+        "name": "D19-__Smash___",
+        "syx": "Reface-DX21/SYX/D19-__Smash___.syx",
+        "txt": "Reface-DX21/TXT/D19-__Smash___.txt"
+      },
+      {
+        "name": "D20-FM_SQUARE_",
+        "syx": "Reface-DX21/SYX/D20-FM_SQUARE_.syx",
+        "txt": "Reface-DX21/TXT/D20-FM_SQUARE_.txt"
+      },
+      {
+        "name": "D21-FM_PULSE__",
+        "syx": "Reface-DX21/SYX/D21-FM_PULSE__.syx",
+        "txt": "Reface-DX21/TXT/D21-FM_PULSE__.txt"
+      },
+      {
+        "name": "D22-FMSAWTOOTH",
+        "syx": "Reface-DX21/SYX/D22-FMSAWTOOTH.syx",
+        "txt": "Reface-DX21/TXT/D22-FMSAWTOOTH.txt"
+      },
+      {
+        "name": "D23-LFO_NOISE_",
+        "syx": "Reface-DX21/SYX/D23-LFO_NOISE_.syx",
+        "txt": "Reface-DX21/TXT/D23-LFO_NOISE_.txt"
+      },
+      {
+        "name": "D24-PINK_NOISE",
+        "syx": "Reface-DX21/SYX/D24-PINK_NOISE.syx",
+        "txt": "Reface-DX21/TXT/D24-PINK_NOISE.txt"
+      },
+      {
+        "name": "D25-Windbells_",
+        "syx": "Reface-DX21/SYX/D25-Windbells_.syx",
+        "txt": "Reface-DX21/TXT/D25-Windbells_.txt"
+      },
+      {
+        "name": "D26-Synvox____",
+        "syx": "Reface-DX21/SYX/D26-Synvox____.syx",
+        "txt": "Reface-DX21/TXT/D26-Synvox____.txt"
+      },
+      {
+        "name": "D27-Punk_funk_",
+        "syx": "Reface-DX21/SYX/D27-Punk_funk_.syx",
+        "txt": "Reface-DX21/TXT/D27-Punk_funk_.txt"
+      },
+      {
+        "name": "D28-Whistling_",
+        "syx": "Reface-DX21/SYX/D28-Whistling_.syx",
+        "txt": "Reface-DX21/TXT/D28-Whistling_.txt"
+      },
+      {
+        "name": "D29-Voices____",
+        "syx": "Reface-DX21/SYX/D29-Voices____.syx",
+        "txt": "Reface-DX21/TXT/D29-Voices____.txt"
+      },
+      {
+        "name": "D30-Zing_Plop_",
+        "syx": "Reface-DX21/SYX/D30-Zing_Plop_.syx",
+        "txt": "Reface-DX21/TXT/D30-Zing_Plop_.txt"
+      },
+      {
+        "name": "D31-Valve_Plop",
+        "syx": "Reface-DX21/SYX/D31-Valve_Plop.syx",
+        "txt": "Reface-DX21/TXT/D31-Valve_Plop.txt"
+      },
+      {
+        "name": "D32-Mars_to___",
+        "syx": "Reface-DX21/SYX/D32-Mars_to___.syx",
+        "txt": "Reface-DX21/TXT/D32-Mars_to___.txt"
+      }
+    ],
+    "Reface-DX9": [
+      {
+        "name": "FX-01-Laser_Gun2",
+        "syx": "Reface-DX9/SYX/FX-01-Laser_Gun2.syx",
+        "txt": "Reface-DX9/TXT/FX-01-Laser_Gun2.txt"
+      },
+      {
+        "name": "FX-02-PolceWhstl",
+        "syx": "Reface-DX9/SYX/FX-02-PolceWhstl.syx",
+        "txt": "Reface-DX9/TXT/FX-02-PolceWhstl.txt"
+      },
+      {
+        "name": "FX-03-Old_99____",
+        "syx": "Reface-DX9/SYX/FX-03-Old_99____.syx",
+        "txt": "Reface-DX9/TXT/FX-03-Old_99____.txt"
+      },
+      {
+        "name": "FX-04-Whistle___",
+        "syx": "Reface-DX9/SYX/FX-04-Whistle___.syx",
+        "txt": "Reface-DX9/TXT/FX-04-Whistle___.txt"
+      },
+      {
+        "name": "FX-05-SpaceWars_",
+        "syx": "Reface-DX9/SYX/FX-05-SpaceWars_.syx",
+        "txt": "Reface-DX9/TXT/FX-05-SpaceWars_.txt"
+      },
+      {
+        "name": "FX-06-Evolution_",
+        "syx": "Reface-DX9/SYX/FX-06-Evolution_.syx",
+        "txt": "Reface-DX9/TXT/FX-06-Evolution_.txt"
+      },
+      {
+        "name": "FX-07-OctaveWar_",
+        "syx": "Reface-DX9/SYX/FX-07-OctaveWar_.syx",
+        "txt": "Reface-DX9/TXT/FX-07-OctaveWar_.txt"
+      },
+      {
+        "name": "FX-08-Wart_Hog__",
+        "syx": "Reface-DX9/SYX/FX-08-Wart_Hog__.syx",
+        "txt": "Reface-DX9/TXT/FX-08-Wart_Hog__.txt"
+      },
+      {
+        "name": "FX-09-EarthQuke_",
+        "syx": "Reface-DX9/SYX/FX-09-EarthQuke_.syx",
+        "txt": "Reface-DX9/TXT/FX-09-EarthQuke_.txt"
+      },
+      {
+        "name": "FX-10-SpaceBird_",
+        "syx": "Reface-DX9/SYX/FX-10-SpaceBird_.syx",
+        "txt": "Reface-DX9/TXT/FX-10-SpaceBird_.txt"
+      },
+      {
+        "name": "FX-11-SynthOrgn_",
+        "syx": "Reface-DX9/SYX/FX-11-SynthOrgn_.syx",
+        "txt": "Reface-DX9/TXT/FX-11-SynthOrgn_.txt"
+      },
+      {
+        "name": "FX-12-SynthClav_",
+        "syx": "Reface-DX9/SYX/FX-12-SynthClav_.syx",
+        "txt": "Reface-DX9/TXT/FX-12-SynthClav_.txt"
+      },
+      {
+        "name": "FX-13-SynthBClav",
+        "syx": "Reface-DX9/SYX/FX-13-SynthBClav.syx",
+        "txt": "Reface-DX9/TXT/FX-13-SynthBClav.txt"
+      },
+      {
+        "name": "FX-14-SynthGuitr",
+        "syx": "Reface-DX9/SYX/FX-14-SynthGuitr.syx",
+        "txt": "Reface-DX9/TXT/FX-14-SynthGuitr.txt"
+      },
+      {
+        "name": "FX-15-SynthBell_",
+        "syx": "Reface-DX9/SYX/FX-15-SynthBell_.syx",
+        "txt": "Reface-DX9/TXT/FX-15-SynthBell_.txt"
+      },
+      {
+        "name": "FX-16-SyLogDrums",
+        "syx": "Reface-DX9/SYX/FX-16-SyLogDrums.syx",
+        "txt": "Reface-DX9/TXT/FX-16-SyLogDrums.txt"
+      },
+      {
+        "name": "FX-17-SythBrass3",
+        "syx": "Reface-DX9/SYX/FX-17-SythBrass3.syx",
+        "txt": "Reface-DX9/TXT/FX-17-SythBrass3.txt"
+      },
+      {
+        "name": "FX-18-SythBrass3",
+        "syx": "Reface-DX9/SYX/FX-18-SythBrass3.syx",
+        "txt": "Reface-DX9/TXT/FX-18-SythBrass3.txt"
+      },
+      {
+        "name": "FX-19-TubularErt",
+        "syx": "Reface-DX9/SYX/FX-19-TubularErt.syx",
+        "txt": "Reface-DX9/TXT/FX-19-TubularErt.txt"
+      },
+      {
+        "name": "FX-20-Data_Trans",
+        "syx": "Reface-DX9/SYX/FX-20-Data_Trans.syx",
+        "txt": "Reface-DX9/TXT/FX-20-Data_Trans.txt"
+      },
+      {
+        "name": "KB-01-Acc_Piano2",
+        "syx": "Reface-DX9/SYX/KB-01-Acc_Piano2.syx",
+        "txt": "Reface-DX9/TXT/KB-01-Acc_Piano2.txt"
+      },
+      {
+        "name": "KB-02-Acc_Piano3",
+        "syx": "Reface-DX9/SYX/KB-02-Acc_Piano3.syx",
+        "txt": "Reface-DX9/TXT/KB-02-Acc_Piano3.txt"
+      },
+      {
+        "name": "KB-03-HTonkPiano",
+        "syx": "Reface-DX9/SYX/KB-03-HTonkPiano.syx",
+        "txt": "Reface-DX9/TXT/KB-03-HTonkPiano.txt"
+      },
+      {
+        "name": "KB-04-ElecPiano2",
+        "syx": "Reface-DX9/SYX/KB-04-ElecPiano2.syx",
+        "txt": "Reface-DX9/TXT/KB-04-ElecPiano2.txt"
+      },
+      {
+        "name": "KB-05-ElecPiano3",
+        "syx": "Reface-DX9/SYX/KB-05-ElecPiano3.syx",
+        "txt": "Reface-DX9/TXT/KB-05-ElecPiano3.txt"
+      },
+      {
+        "name": "KB-06-ElecPiano4",
+        "syx": "Reface-DX9/SYX/KB-06-ElecPiano4.syx",
+        "txt": "Reface-DX9/TXT/KB-06-ElecPiano4.txt"
+      },
+      {
+        "name": "KB-07-ElecPiano5",
+        "syx": "Reface-DX9/SYX/KB-07-ElecPiano5.syx",
+        "txt": "Reface-DX9/TXT/KB-07-ElecPiano5.txt"
+      },
+      {
+        "name": "KB-08-Celestial_",
+        "syx": "Reface-DX9/SYX/KB-08-Celestial_.syx",
+        "txt": "Reface-DX9/TXT/KB-08-Celestial_.txt"
+      },
+      {
+        "name": "KB-09-Toy_Piano_",
+        "syx": "Reface-DX9/SYX/KB-09-Toy_Piano_.syx",
+        "txt": "Reface-DX9/TXT/KB-09-Toy_Piano_.txt"
+      },
+      {
+        "name": "KB-10-Clav_2____",
+        "syx": "Reface-DX9/SYX/KB-10-Clav_2____.syx",
+        "txt": "Reface-DX9/TXT/KB-10-Clav_2____.txt"
+      },
+      {
+        "name": "KB-11-Hrpsichrd2",
+        "syx": "Reface-DX9/SYX/KB-11-Hrpsichrd2.syx",
+        "txt": "Reface-DX9/TXT/KB-11-Hrpsichrd2.txt"
+      },
+      {
+        "name": "KB-12-Hrpsichrd3",
+        "syx": "Reface-DX9/SYX/KB-12-Hrpsichrd3.syx",
+        "txt": "Reface-DX9/TXT/KB-12-Hrpsichrd3.txt"
+      },
+      {
+        "name": "KB-13-PipeOrgan2",
+        "syx": "Reface-DX9/SYX/KB-13-PipeOrgan2.syx",
+        "txt": "Reface-DX9/TXT/KB-13-PipeOrgan2.txt"
+      },
+      {
+        "name": "KB-14-PipeOrgan3",
+        "syx": "Reface-DX9/SYX/KB-14-PipeOrgan3.syx",
+        "txt": "Reface-DX9/TXT/KB-14-PipeOrgan3.txt"
+      },
+      {
+        "name": "KB-15-LitlePipes",
+        "syx": "Reface-DX9/SYX/KB-15-LitlePipes.syx",
+        "txt": "Reface-DX9/TXT/KB-15-LitlePipes.txt"
+      },
+      {
+        "name": "KB-16-Caliope___",
+        "syx": "Reface-DX9/SYX/KB-16-Caliope___.syx",
+        "txt": "Reface-DX9/TXT/KB-16-Caliope___.txt"
+      },
+      {
+        "name": "KB-17-ElecOrgan2",
+        "syx": "Reface-DX9/SYX/KB-17-ElecOrgan2.syx",
+        "txt": "Reface-DX9/TXT/KB-17-ElecOrgan2.txt"
+      },
+      {
+        "name": "KB-18-ElecOrgan3",
+        "syx": "Reface-DX9/SYX/KB-18-ElecOrgan3.syx",
+        "txt": "Reface-DX9/TXT/KB-18-ElecOrgan3.txt"
+      },
+      {
+        "name": "KB-19-60s_Organ_",
+        "syx": "Reface-DX9/SYX/KB-19-60s_Organ_.syx",
+        "txt": "Reface-DX9/TXT/KB-19-60s_Organ_.txt"
+      },
+      {
+        "name": "KB-20-Accordion_",
+        "syx": "Reface-DX9/SYX/KB-20-Accordion_.syx",
+        "txt": "Reface-DX9/TXT/KB-20-Accordion_.txt"
+      },
+      {
+        "name": "MA-01-Brass_1___",
+        "syx": "Reface-DX9/SYX/MA-01-Brass_1___.syx",
+        "txt": "Reface-DX9/TXT/MA-01-Brass_1___.txt"
+      },
+      {
+        "name": "MA-02-Brass_2___",
+        "syx": "Reface-DX9/SYX/MA-02-Brass_2___.syx",
+        "txt": "Reface-DX9/TXT/MA-02-Brass_2___.txt"
+      },
+      {
+        "name": "MA-03-SynthBrss1",
+        "syx": "Reface-DX9/SYX/MA-03-SynthBrss1.syx",
+        "txt": "Reface-DX9/TXT/MA-03-SynthBrss1.txt"
+      },
+      {
+        "name": "MA-04-Strings_1_",
+        "syx": "Reface-DX9/SYX/MA-04-Strings_1_.syx",
+        "txt": "Reface-DX9/TXT/MA-04-Strings_1_.txt"
+      },
+      {
+        "name": "MA-05-Strings_2_",
+        "syx": "Reface-DX9/SYX/MA-05-Strings_2_.syx",
+        "txt": "Reface-DX9/TXT/MA-05-Strings_2_.txt"
+      },
+      {
+        "name": "MA-06-Acc_Piano1",
+        "syx": "Reface-DX9/SYX/MA-06-Acc_Piano1.syx",
+        "txt": "Reface-DX9/TXT/MA-06-Acc_Piano1.txt"
+      },
+      {
+        "name": "MA-07-ElecPiano1",
+        "syx": "Reface-DX9/SYX/MA-07-ElecPiano1.syx",
+        "txt": "Reface-DX9/TXT/MA-07-ElecPiano1.txt"
+      },
+      {
+        "name": "MA-08-Guitar_1__",
+        "syx": "Reface-DX9/SYX/MA-08-Guitar_1__.syx",
+        "txt": "Reface-DX9/TXT/MA-08-Guitar_1__.txt"
+      },
+      {
+        "name": "MA-09-SynthLead1",
+        "syx": "Reface-DX9/SYX/MA-09-SynthLead1.syx",
+        "txt": "Reface-DX9/TXT/MA-09-SynthLead1.txt"
+      },
+      {
+        "name": "MA-10-Bass_1____",
+        "syx": "Reface-DX9/SYX/MA-10-Bass_1____.syx",
+        "txt": "Reface-DX9/TXT/MA-10-Bass_1____.txt"
+      },
+      {
+        "name": "MA-11-ElecOrgan1",
+        "syx": "Reface-DX9/SYX/MA-11-ElecOrgan1.syx",
+        "txt": "Reface-DX9/TXT/MA-11-ElecOrgan1.txt"
+      },
+      {
+        "name": "MA-12-PipeOrgan1",
+        "syx": "Reface-DX9/SYX/MA-12-PipeOrgan1.syx",
+        "txt": "Reface-DX9/TXT/MA-12-PipeOrgan1.txt"
+      },
+      {
+        "name": "MA-13-Hrpsichrd1",
+        "syx": "Reface-DX9/SYX/MA-13-Hrpsichrd1.syx",
+        "txt": "Reface-DX9/TXT/MA-13-Hrpsichrd1.txt"
+      },
+      {
+        "name": "MA-14-Clav_1____",
+        "syx": "Reface-DX9/SYX/MA-14-Clav_1____.syx",
+        "txt": "Reface-DX9/TXT/MA-14-Clav_1____.txt"
+      },
+      {
+        "name": "MA-15-Vibe______",
+        "syx": "Reface-DX9/SYX/MA-15-Vibe______.syx",
+        "txt": "Reface-DX9/TXT/MA-15-Vibe______.txt"
+      },
+      {
+        "name": "MA-16-Flute_____",
+        "syx": "Reface-DX9/SYX/MA-16-Flute_____.syx",
+        "txt": "Reface-DX9/TXT/MA-16-Flute_____.txt"
+      },
+      {
+        "name": "MA-17-StrngsBell",
+        "syx": "Reface-DX9/SYX/MA-17-StrngsBell.syx",
+        "txt": "Reface-DX9/TXT/MA-17-StrngsBell.txt"
+      },
+      {
+        "name": "MA-18-Laser_Gun1",
+        "syx": "Reface-DX9/SYX/MA-18-Laser_Gun1.syx",
+        "txt": "Reface-DX9/TXT/MA-18-Laser_Gun1.txt"
+      },
+      {
+        "name": "MA-19-HumanVoice",
+        "syx": "Reface-DX9/SYX/MA-19-HumanVoice.syx",
+        "txt": "Reface-DX9/TXT/MA-19-HumanVoice.txt"
+      },
+      {
+        "name": "MA-20-Timpani___",
+        "syx": "Reface-DX9/SYX/MA-20-Timpani___.syx",
+        "txt": "Reface-DX9/TXT/MA-20-Timpani___.txt"
+      },
+      {
+        "name": "OR-01-Clarinet__",
+        "syx": "Reface-DX9/SYX/OR-01-Clarinet__.syx",
+        "txt": "Reface-DX9/TXT/OR-01-Clarinet__.txt"
+      },
+      {
+        "name": "OR-02-Oboe______",
+        "syx": "Reface-DX9/SYX/OR-02-Oboe______.syx",
+        "txt": "Reface-DX9/TXT/OR-02-Oboe______.txt"
+      },
+      {
+        "name": "OR-03-Bassoon___",
+        "syx": "Reface-DX9/SYX/OR-03-Bassoon___.syx",
+        "txt": "Reface-DX9/TXT/OR-03-Bassoon___.txt"
+      },
+      {
+        "name": "OR-04-Piccolo___",
+        "syx": "Reface-DX9/SYX/OR-04-Piccolo___.syx",
+        "txt": "Reface-DX9/TXT/OR-04-Piccolo___.txt"
+      },
+      {
+        "name": "OR-05-Saxophone_",
+        "syx": "Reface-DX9/SYX/OR-05-Saxophone_.syx",
+        "txt": "Reface-DX9/TXT/OR-05-Saxophone_.txt"
+      },
+      {
+        "name": "OR-06-Harmonica_",
+        "syx": "Reface-DX9/SYX/OR-06-Harmonica_.syx",
+        "txt": "Reface-DX9/TXT/OR-06-Harmonica_.txt"
+      },
+      {
+        "name": "OR-07-Cellos_1__",
+        "syx": "Reface-DX9/SYX/OR-07-Cellos_1__.syx",
+        "txt": "Reface-DX9/TXT/OR-07-Cellos_1__.txt"
+      },
+      {
+        "name": "OR-08-Cellos_2__",
+        "syx": "Reface-DX9/SYX/OR-08-Cellos_2__.syx",
+        "txt": "Reface-DX9/TXT/OR-08-Cellos_2__.txt"
+      },
+      {
+        "name": "OR-09-Cellos_3__",
+        "syx": "Reface-DX9/SYX/OR-09-Cellos_3__.syx",
+        "txt": "Reface-DX9/TXT/OR-09-Cellos_3__.txt"
+      },
+      {
+        "name": "OR-10-Violin_1__",
+        "syx": "Reface-DX9/SYX/OR-10-Violin_1__.syx",
+        "txt": "Reface-DX9/TXT/OR-10-Violin_1__.txt"
+      },
+      {
+        "name": "OR-11-Violin_2__",
+        "syx": "Reface-DX9/SYX/OR-11-Violin_2__.syx",
+        "txt": "Reface-DX9/TXT/OR-11-Violin_2__.txt"
+      },
+      {
+        "name": "OR-12-Violin_3__",
+        "syx": "Reface-DX9/SYX/OR-12-Violin_3__.syx",
+        "txt": "Reface-DX9/TXT/OR-12-Violin_3__.txt"
+      },
+      {
+        "name": "OR-13-SlowAttack",
+        "syx": "Reface-DX9/SYX/OR-13-SlowAttack.syx",
+        "txt": "Reface-DX9/TXT/OR-13-SlowAttack.txt"
+      },
+      {
+        "name": "OR-14-Pizzicato_",
+        "syx": "Reface-DX9/SYX/OR-14-Pizzicato_.syx",
+        "txt": "Reface-DX9/TXT/OR-14-Pizzicato_.txt"
+      },
+      {
+        "name": "OR-15-SynthBrss2",
+        "syx": "Reface-DX9/SYX/OR-15-SynthBrss2.syx",
+        "txt": "Reface-DX9/TXT/OR-15-SynthBrss2.txt"
+      },
+      {
+        "name": "OR-16-BrassChoir",
+        "syx": "Reface-DX9/SYX/OR-16-BrassChoir.syx",
+        "txt": "Reface-DX9/TXT/OR-16-BrassChoir.txt"
+      },
+      {
+        "name": "OR-17-Trombone__",
+        "syx": "Reface-DX9/SYX/OR-17-Trombone__.syx",
+        "txt": "Reface-DX9/TXT/OR-17-Trombone__.txt"
+      },
+      {
+        "name": "OR-18-BrassDbOct",
+        "syx": "Reface-DX9/SYX/OR-18-BrassDbOct.syx",
+        "txt": "Reface-DX9/TXT/OR-18-BrassDbOct.txt"
+      },
+      {
+        "name": "OR-19-Brass_BC1_",
+        "syx": "Reface-DX9/SYX/OR-19-Brass_BC1_.syx",
+        "txt": "Reface-DX9/TXT/OR-19-Brass_BC1_.txt"
+      },
+      {
+        "name": "OR-20-Horns_BC1_",
+        "syx": "Reface-DX9/SYX/OR-20-Horns_BC1_.syx",
+        "txt": "Reface-DX9/TXT/OR-20-Horns_BC1_.txt"
+      },
+      {
+        "name": "PP-01-Glockenspl",
+        "syx": "Reface-DX9/SYX/PP-01-Glockenspl.syx",
+        "txt": "Reface-DX9/TXT/PP-01-Glockenspl.txt"
+      },
+      {
+        "name": "PP-02-AGoGoBells",
+        "syx": "Reface-DX9/SYX/PP-02-AGoGoBells.syx",
+        "txt": "Reface-DX9/TXT/PP-02-AGoGoBells.txt"
+      },
+      {
+        "name": "PP-03-SteelDrums",
+        "syx": "Reface-DX9/SYX/PP-03-SteelDrums.syx",
+        "txt": "Reface-DX9/TXT/PP-03-SteelDrums.txt"
+      },
+      {
+        "name": "PP-04-TbularBels",
+        "syx": "Reface-DX9/SYX/PP-04-TbularBels.syx",
+        "txt": "Reface-DX9/TXT/PP-04-TbularBels.txt"
+      },
+      {
+        "name": "PP-05-Marimba___",
+        "syx": "Reface-DX9/SYX/PP-05-Marimba___.syx",
+        "txt": "Reface-DX9/TXT/PP-05-Marimba___.txt"
+      },
+      {
+        "name": "PP-06-Gong______",
+        "syx": "Reface-DX9/SYX/PP-06-Gong______.syx",
+        "txt": "Reface-DX9/TXT/PP-06-Gong______.txt"
+      },
+      {
+        "name": "PP-07-Bells_____",
+        "syx": "Reface-DX9/SYX/PP-07-Bells_____.syx",
+        "txt": "Reface-DX9/TXT/PP-07-Bells_____.txt"
+      },
+      {
+        "name": "PP-08-Block_____",
+        "syx": "Reface-DX9/SYX/PP-08-Block_____.syx",
+        "txt": "Reface-DX9/TXT/PP-08-Block_____.txt"
+      },
+      {
+        "name": "PP-09-Flexatone_",
+        "syx": "Reface-DX9/SYX/PP-09-Flexatone_.syx",
+        "txt": "Reface-DX9/TXT/PP-09-Flexatone_.txt"
+      },
+      {
+        "name": "PP-10-Cowbell___",
+        "syx": "Reface-DX9/SYX/PP-10-Cowbell___.syx",
+        "txt": "Reface-DX9/TXT/PP-10-Cowbell___.txt"
+      },
+      {
+        "name": "PP-11-Sitar_____",
+        "syx": "Reface-DX9/SYX/PP-11-Sitar_____.syx",
+        "txt": "Reface-DX9/TXT/PP-11-Sitar_____.txt"
+      },
+      {
+        "name": "PP-12-Koto______",
+        "syx": "Reface-DX9/SYX/PP-12-Koto______.syx",
+        "txt": "Reface-DX9/TXT/PP-12-Koto______.txt"
+      },
+      {
+        "name": "PP-13-Bass_2____",
+        "syx": "Reface-DX9/SYX/PP-13-Bass_2____.syx",
+        "txt": "Reface-DX9/TXT/PP-13-Bass_2____.txt"
+      },
+      {
+        "name": "PP-14-Bass_3____",
+        "syx": "Reface-DX9/SYX/PP-14-Bass_3____.syx",
+        "txt": "Reface-DX9/TXT/PP-14-Bass_3____.txt"
+      },
+      {
+        "name": "PP-15-Guitar_2__",
+        "syx": "Reface-DX9/SYX/PP-15-Guitar_2__.syx",
+        "txt": "Reface-DX9/TXT/PP-15-Guitar_2__.txt"
+      },
+      {
+        "name": "PP-16-Guitar_3__",
+        "syx": "Reface-DX9/SYX/PP-16-Guitar_3__.syx",
+        "txt": "Reface-DX9/TXT/PP-16-Guitar_3__.txt"
+      },
+      {
+        "name": "PP-17-Lute______",
+        "syx": "Reface-DX9/SYX/PP-17-Lute______.syx",
+        "txt": "Reface-DX9/TXT/PP-17-Lute______.txt"
+      },
+      {
+        "name": "PP-18-Harp______",
+        "syx": "Reface-DX9/SYX/PP-18-Harp______.syx",
+        "txt": "Reface-DX9/TXT/PP-18-Harp______.txt"
+      },
+      {
+        "name": "PP-19-Banjo_____",
+        "syx": "Reface-DX9/SYX/PP-19-Banjo_____.syx",
+        "txt": "Reface-DX9/TXT/PP-19-Banjo_____.txt"
+      },
+      {
+        "name": "PP-20-Xylophone_",
+        "syx": "Reface-DX9/SYX/PP-20-Xylophone_.syx",
+        "txt": "Reface-DX9/TXT/PP-20-Xylophone_.txt"
+      },
+      {
+        "name": "SY-01-TubBellExp",
+        "syx": "Reface-DX9/SYX/SY-01-TubBellExp.syx",
+        "txt": "Reface-DX9/TXT/SY-01-TubBellExp.txt"
+      },
+      {
+        "name": "SY-02-Guitar_FB1",
+        "syx": "Reface-DX9/SYX/SY-02-Guitar_FB1.syx",
+        "txt": "Reface-DX9/TXT/SY-02-Guitar_FB1.txt"
+      },
+      {
+        "name": "SY-03-Guitar_FB2",
+        "syx": "Reface-DX9/SYX/SY-03-Guitar_FB2.syx",
+        "txt": "Reface-DX9/TXT/SY-03-Guitar_FB2.txt"
+      },
+      {
+        "name": "SY-04-Full_Orch1",
+        "syx": "Reface-DX9/SYX/SY-04-Full_Orch1.syx",
+        "txt": "Reface-DX9/TXT/SY-04-Full_Orch1.txt"
+      },
+      {
+        "name": "SY-05-Full_Orch2",
+        "syx": "Reface-DX9/SYX/SY-05-Full_Orch2.syx",
+        "txt": "Reface-DX9/TXT/SY-05-Full_Orch2.txt"
+      },
+      {
+        "name": "SY-06-MarimbaSt1",
+        "syx": "Reface-DX9/SYX/SY-06-MarimbaSt1.syx",
+        "txt": "Reface-DX9/TXT/SY-06-MarimbaSt1.txt"
+      },
+      {
+        "name": "SY-07-MarimbaSt2",
+        "syx": "Reface-DX9/SYX/SY-07-MarimbaSt2.syx",
+        "txt": "Reface-DX9/TXT/SY-07-MarimbaSt2.txt"
+      },
+      {
+        "name": "SY-08-HrpschrdSt",
+        "syx": "Reface-DX9/SYX/SY-08-HrpschrdSt.syx",
+        "txt": "Reface-DX9/TXT/SY-08-HrpschrdSt.txt"
+      },
+      {
+        "name": "SY-09-BrassChime",
+        "syx": "Reface-DX9/SYX/SY-09-BrassChime.syx",
+        "txt": "Reface-DX9/TXT/SY-09-BrassChime.txt"
+      },
+      {
+        "name": "SY-10-CelEchOrgn",
+        "syx": "Reface-DX9/SYX/SY-10-CelEchOrgn.syx",
+        "txt": "Reface-DX9/TXT/SY-10-CelEchOrgn.txt"
+      },
+      {
+        "name": "SY-11-CeleGhost_",
+        "syx": "Reface-DX9/SYX/SY-11-CeleGhost_.syx",
+        "txt": "Reface-DX9/TXT/SY-11-CeleGhost_.txt"
+      },
+      {
+        "name": "SY-12-PianoStr1_",
+        "syx": "Reface-DX9/SYX/SY-12-PianoStr1_.syx",
+        "txt": "Reface-DX9/TXT/SY-12-PianoStr1_.txt"
+      },
+      {
+        "name": "SY-13-PianoStr2_",
+        "syx": "Reface-DX9/SYX/SY-13-PianoStr2_.syx",
+        "txt": "Reface-DX9/TXT/SY-13-PianoStr2_.txt"
+      },
+      {
+        "name": "SY-14-PianoBrass",
+        "syx": "Reface-DX9/SYX/SY-14-PianoBrass.syx",
+        "txt": "Reface-DX9/TXT/SY-14-PianoBrass.txt"
+      },
+      {
+        "name": "SY-15-HarpFlute_",
+        "syx": "Reface-DX9/SYX/SY-15-HarpFlute_.syx",
+        "txt": "Reface-DX9/TXT/SY-15-HarpFlute_.txt"
+      },
+      {
+        "name": "SY-16-KotoFlute_",
+        "syx": "Reface-DX9/SYX/SY-16-KotoFlute_.syx",
+        "txt": "Reface-DX9/TXT/SY-16-KotoFlute_.txt"
+      },
+      {
+        "name": "SY-17-BrassBlock",
+        "syx": "Reface-DX9/SYX/SY-17-BrassBlock.syx",
+        "txt": "Reface-DX9/TXT/SY-17-BrassBlock.txt"
+      },
+      {
+        "name": "SY-18-BrassSHold",
+        "syx": "Reface-DX9/SYX/SY-18-BrassSHold.syx",
+        "txt": "Reface-DX9/TXT/SY-18-BrassSHold.txt"
+      },
+      {
+        "name": "SY-19-PipesGlock",
+        "syx": "Reface-DX9/SYX/SY-19-PipesGlock.syx",
+        "txt": "Reface-DX9/TXT/SY-19-PipesGlock.txt"
+      },
+      {
+        "name": "SY-20-RecStrings",
+        "syx": "Reface-DX9/SYX/SY-20-RecStrings.syx",
+        "txt": "Reface-DX9/TXT/SY-20-RecStrings.txt"
+      }
+    ],
+    "Reface-TX81Z": [
+      {
+        "name": "A01-GrandPiano",
+        "syx": "Reface-TX81Z/SYX/A01-GrandPiano.syx",
+        "txt": "Reface-TX81Z/TXT/A01-GrandPiano.txt"
+      },
+      {
+        "name": "A02-Uprt_piano",
+        "syx": "Reface-TX81Z/SYX/A02-Uprt_piano.syx",
+        "txt": "Reface-TX81Z/TXT/A02-Uprt_piano.txt"
+      },
+      {
+        "name": "A03-Deep_Grd__",
+        "syx": "Reface-TX81Z/SYX/A03-Deep_Grd__.syx",
+        "txt": "Reface-TX81Z/TXT/A03-Deep_Grd__.txt"
+      },
+      {
+        "name": "A04-HonkeyTonk",
+        "syx": "Reface-TX81Z/SYX/A04-HonkeyTonk.syx",
+        "txt": "Reface-TX81Z/TXT/A04-HonkeyTonk.txt"
+      },
+      {
+        "name": "A05-Elec_Grand",
+        "syx": "Reface-TX81Z/SYX/A05-Elec_Grand.syx",
+        "txt": "Reface-TX81Z/TXT/A05-Elec_Grand.txt"
+      },
+      {
+        "name": "A06-Fuzz_Piano",
+        "syx": "Reface-TX81Z/SYX/A06-Fuzz_Piano.syx",
+        "txt": "Reface-TX81Z/TXT/A06-Fuzz_Piano.txt"
+      },
+      {
+        "name": "A07-SkoolPiano",
+        "syx": "Reface-TX81Z/SYX/A07-SkoolPiano.syx",
+        "txt": "Reface-TX81Z/TXT/A07-SkoolPiano.txt"
+      },
+      {
+        "name": "A08-Thump_Pno_",
+        "syx": "Reface-TX81Z/SYX/A08-Thump_Pno_.syx",
+        "txt": "Reface-TX81Z/TXT/A08-Thump_Pno_.txt"
+      },
+      {
+        "name": "A09-LoTine81Z_",
+        "syx": "Reface-TX81Z/SYX/A09-LoTine81Z_.syx",
+        "txt": "Reface-TX81Z/TXT/A09-LoTine81Z_.txt"
+      },
+      {
+        "name": "A10-HiTine81Z_",
+        "syx": "Reface-TX81Z/SYX/A10-HiTine81Z_.syx",
+        "txt": "Reface-TX81Z/TXT/A10-HiTine81Z_.txt"
+      },
+      {
+        "name": "A11-ElectroPno",
+        "syx": "Reface-TX81Z/SYX/A11-ElectroPno.syx",
+        "txt": "Reface-TX81Z/TXT/A11-ElectroPno.txt"
+      },
+      {
+        "name": "A12-NewElectro",
+        "syx": "Reface-TX81Z/SYX/A12-NewElectro.syx",
+        "txt": "Reface-TX81Z/TXT/A12-NewElectro.txt"
+      },
+      {
+        "name": "A13-DynomiteEP",
+        "syx": "Reface-TX81Z/SYX/A13-DynomiteEP.syx",
+        "txt": "Reface-TX81Z/TXT/A13-DynomiteEP.txt"
+      },
+      {
+        "name": "A14-DynoWurlie",
+        "syx": "Reface-TX81Z/SYX/A14-DynoWurlie.syx",
+        "txt": "Reface-TX81Z/TXT/A14-DynoWurlie.txt"
+      },
+      {
+        "name": "A15-Wood_Piano",
+        "syx": "Reface-TX81Z/SYX/A15-Wood_Piano.syx",
+        "txt": "Reface-TX81Z/TXT/A15-Wood_Piano.txt"
+      },
+      {
+        "name": "A16-Reed_Piano",
+        "syx": "Reface-TX81Z/SYX/A16-Reed_Piano.syx",
+        "txt": "Reface-TX81Z/TXT/A16-Reed_Piano.txt"
+      },
+      {
+        "name": "A17-PercOrgan_",
+        "syx": "Reface-TX81Z/SYX/A17-PercOrgan_.syx",
+        "txt": "Reface-TX81Z/TXT/A17-PercOrgan_.txt"
+      },
+      {
+        "name": "A18-16_8_4_2_F",
+        "syx": "Reface-TX81Z/SYX/A18-16_8_4_2_F.syx",
+        "txt": "Reface-TX81Z/TXT/A18-16_8_4_2_F.txt"
+      },
+      {
+        "name": "A19-PumpOrgan_",
+        "syx": "Reface-TX81Z/SYX/A19-PumpOrgan_.syx",
+        "txt": "Reface-TX81Z/TXT/A19-PumpOrgan_.txt"
+      },
+      {
+        "name": "A20-_6_Tease__",
+        "syx": "Reface-TX81Z/SYX/A20-_6_Tease__.syx",
+        "txt": "Reface-TX81Z/TXT/A20-_6_Tease__.txt"
+      },
+      {
+        "name": "A21-Farcheeza_",
+        "syx": "Reface-TX81Z/SYX/A21-Farcheeza_.syx",
+        "txt": "Reface-TX81Z/TXT/A21-Farcheeza_.txt"
+      },
+      {
+        "name": "A22-Small_Pipe",
+        "syx": "Reface-TX81Z/SYX/A22-Small_Pipe.syx",
+        "txt": "Reface-TX81Z/TXT/A22-Small_Pipe.txt"
+      },
+      {
+        "name": "A23-Big_Church",
+        "syx": "Reface-TX81Z/SYX/A23-Big_Church.syx",
+        "txt": "Reface-TX81Z/TXT/A23-Big_Church.txt"
+      },
+      {
+        "name": "A24-AnalogOrgn",
+        "syx": "Reface-TX81Z/SYX/A24-AnalogOrgn.syx",
+        "txt": "Reface-TX81Z/TXT/A24-AnalogOrgn.txt"
+      },
+      {
+        "name": "A25-Thin_Clav_",
+        "syx": "Reface-TX81Z/SYX/A25-Thin_Clav_.syx",
+        "txt": "Reface-TX81Z/TXT/A25-Thin_Clav_.txt"
+      },
+      {
+        "name": "A26-EZ_Clav___",
+        "syx": "Reface-TX81Z/SYX/A26-EZ_Clav___.syx",
+        "txt": "Reface-TX81Z/TXT/A26-EZ_Clav___.txt"
+      },
+      {
+        "name": "A27-Fuzz_Clavi",
+        "syx": "Reface-TX81Z/SYX/A27-Fuzz_Clavi.syx",
+        "txt": "Reface-TX81Z/TXT/A27-Fuzz_Clavi.txt"
+      },
+      {
+        "name": "A28-LiteHarpsi",
+        "syx": "Reface-TX81Z/SYX/A28-LiteHarpsi.syx",
+        "txt": "Reface-TX81Z/TXT/A28-LiteHarpsi.txt"
+      },
+      {
+        "name": "A29-RichHarpsi",
+        "syx": "Reface-TX81Z/SYX/A29-RichHarpsi.syx",
+        "txt": "Reface-TX81Z/TXT/A29-RichHarpsi.txt"
+      },
+      {
+        "name": "A30-Celeste___",
+        "syx": "Reface-TX81Z/SYX/A30-Celeste___.syx",
+        "txt": "Reface-TX81Z/TXT/A30-Celeste___.txt"
+      },
+      {
+        "name": "A31-BriteCelst",
+        "syx": "Reface-TX81Z/SYX/A31-BriteCelst.syx",
+        "txt": "Reface-TX81Z/TXT/A31-BriteCelst.txt"
+      },
+      {
+        "name": "A32-Squeezebox",
+        "syx": "Reface-TX81Z/SYX/A32-Squeezebox.syx",
+        "txt": "Reface-TX81Z/TXT/A32-Squeezebox.txt"
+      },
+      {
+        "name": "B01-Trumpet81Z",
+        "syx": "Reface-TX81Z/SYX/B01-Trumpet81Z.syx",
+        "txt": "Reface-TX81Z/TXT/B01-Trumpet81Z.txt"
+      },
+      {
+        "name": "B02-Full_Brass",
+        "syx": "Reface-TX81Z/SYX/B02-Full_Brass.syx",
+        "txt": "Reface-TX81Z/TXT/B02-Full_Brass.txt"
+      },
+      {
+        "name": "B03-Flugelhorn",
+        "syx": "Reface-TX81Z/SYX/B03-Flugelhorn.syx",
+        "txt": "Reface-TX81Z/TXT/B03-Flugelhorn.txt"
+      },
+      {
+        "name": "B04-ChorusBras",
+        "syx": "Reface-TX81Z/SYX/B04-ChorusBras.syx",
+        "txt": "Reface-TX81Z/TXT/B04-ChorusBras.txt"
+      },
+      {
+        "name": "B05-FrenchHorn",
+        "syx": "Reface-TX81Z/SYX/B05-FrenchHorn.syx",
+        "txt": "Reface-TX81Z/TXT/B05-FrenchHorn.txt"
+      },
+      {
+        "name": "B06-AtackBrass",
+        "syx": "Reface-TX81Z/SYX/B06-AtackBrass.syx",
+        "txt": "Reface-TX81Z/TXT/B06-AtackBrass.txt"
+      },
+      {
+        "name": "B07-SpitBoneBC",
+        "syx": "Reface-TX81Z/SYX/B07-SpitBoneBC.syx",
+        "txt": "Reface-TX81Z/TXT/B07-SpitBoneBC.txt"
+      },
+      {
+        "name": "B08-Horns_BC__",
+        "syx": "Reface-TX81Z/SYX/B08-Horns_BC__.syx",
+        "txt": "Reface-TX81Z/TXT/B08-Horns_BC__.txt"
+      },
+      {
+        "name": "B09-MelloTenor",
+        "syx": "Reface-TX81Z/SYX/B09-MelloTenor.syx",
+        "txt": "Reface-TX81Z/TXT/B09-MelloTenor.txt"
+      },
+      {
+        "name": "B10-RaspAlto__",
+        "syx": "Reface-TX81Z/SYX/B10-RaspAlto__.syx",
+        "txt": "Reface-TX81Z/TXT/B10-RaspAlto__.txt"
+      },
+      {
+        "name": "B11-Flute_____",
+        "syx": "Reface-TX81Z/SYX/B11-Flute_____.syx",
+        "txt": "Reface-TX81Z/TXT/B11-Flute_____.txt"
+      },
+      {
+        "name": "B12-Pan_Floot_",
+        "syx": "Reface-TX81Z/SYX/B12-Pan_Floot_.syx",
+        "txt": "Reface-TX81Z/TXT/B12-Pan_Floot_.txt"
+      },
+      {
+        "name": "B13-Bassoon___",
+        "syx": "Reface-TX81Z/SYX/B13-Bassoon___.syx",
+        "txt": "Reface-TX81Z/TXT/B13-Bassoon___.txt"
+      },
+      {
+        "name": "B14-Oboe______",
+        "syx": "Reface-TX81Z/SYX/B14-Oboe______.syx",
+        "txt": "Reface-TX81Z/TXT/B14-Oboe______.txt"
+      },
+      {
+        "name": "B15-Clarinet__",
+        "syx": "Reface-TX81Z/SYX/B15-Clarinet__.syx",
+        "txt": "Reface-TX81Z/TXT/B15-Clarinet__.txt"
+      },
+      {
+        "name": "B16-Harmonica_",
+        "syx": "Reface-TX81Z/SYX/B16-Harmonica_.syx",
+        "txt": "Reface-TX81Z/TXT/B16-Harmonica_.txt"
+      },
+      {
+        "name": "B17-DoubleBass",
+        "syx": "Reface-TX81Z/SYX/B17-DoubleBass.syx",
+        "txt": "Reface-TX81Z/TXT/B17-DoubleBass.txt"
+      },
+      {
+        "name": "B18-BowCello__",
+        "syx": "Reface-TX81Z/SYX/B18-BowCello__.syx",
+        "txt": "Reface-TX81Z/TXT/B18-BowCello__.txt"
+      },
+      {
+        "name": "B19-BoxCello__",
+        "syx": "Reface-TX81Z/SYX/B19-BoxCello__.syx",
+        "txt": "Reface-TX81Z/TXT/B19-BoxCello__.txt"
+      },
+      {
+        "name": "B20-SoloViolin",
+        "syx": "Reface-TX81Z/SYX/B20-SoloViolin.syx",
+        "txt": "Reface-TX81Z/TXT/B20-SoloViolin.txt"
+      },
+      {
+        "name": "B21-HiString_1",
+        "syx": "Reface-TX81Z/SYX/B21-HiString_1.syx",
+        "txt": "Reface-TX81Z/TXT/B21-HiString_1.txt"
+      },
+      {
+        "name": "B22-LowString_",
+        "syx": "Reface-TX81Z/SYX/B22-LowString_.syx",
+        "txt": "Reface-TX81Z/TXT/B22-LowString_.txt"
+      },
+      {
+        "name": "B23-Pizzicato_",
+        "syx": "Reface-TX81Z/SYX/B23-Pizzicato_.syx",
+        "txt": "Reface-TX81Z/TXT/B23-Pizzicato_.txt"
+      },
+      {
+        "name": "B24-Harp______",
+        "syx": "Reface-TX81Z/SYX/B24-Harp______.syx",
+        "txt": "Reface-TX81Z/TXT/B24-Harp______.txt"
+      },
+      {
+        "name": "B25-ReverbStrg",
+        "syx": "Reface-TX81Z/SYX/B25-ReverbStrg.syx",
+        "txt": "Reface-TX81Z/TXT/B25-ReverbStrg.txt"
+      },
+      {
+        "name": "B26-SynString_",
+        "syx": "Reface-TX81Z/SYX/B26-SynString_.syx",
+        "txt": "Reface-TX81Z/TXT/B26-SynString_.txt"
+      },
+      {
+        "name": "B27-Voices____",
+        "syx": "Reface-TX81Z/SYX/B27-Voices____.syx",
+        "txt": "Reface-TX81Z/TXT/B27-Voices____.txt"
+      },
+      {
+        "name": "B28-HarmoPad__",
+        "syx": "Reface-TX81Z/SYX/B28-HarmoPad__.syx",
+        "txt": "Reface-TX81Z/TXT/B28-HarmoPad__.txt"
+      },
+      {
+        "name": "B29-FanfarTpts",
+        "syx": "Reface-TX81Z/SYX/B29-FanfarTpts.syx",
+        "txt": "Reface-TX81Z/TXT/B29-FanfarTpts.txt"
+      },
+      {
+        "name": "B30-HiString_2",
+        "syx": "Reface-TX81Z/SYX/B30-HiString_2.syx",
+        "txt": "Reface-TX81Z/TXT/B30-HiString_2.txt"
+      },
+      {
+        "name": "B31-PercFlute_",
+        "syx": "Reface-TX81Z/SYX/B31-PercFlute_.syx",
+        "txt": "Reface-TX81Z/TXT/B31-PercFlute_.txt"
+      },
+      {
+        "name": "B32-BreathOrgn",
+        "syx": "Reface-TX81Z/SYX/B32-BreathOrgn.syx",
+        "txt": "Reface-TX81Z/TXT/B32-BreathOrgn.txt"
+      },
+      {
+        "name": "C01-NylonGuit_",
+        "syx": "Reface-TX81Z/SYX/C01-NylonGuit_.syx",
+        "txt": "Reface-TX81Z/TXT/C01-NylonGuit_.txt"
+      },
+      {
+        "name": "C02-Guitar__1_",
+        "syx": "Reface-TX81Z/SYX/C02-Guitar__1_.syx",
+        "txt": "Reface-TX81Z/TXT/C02-Guitar__1_.txt"
+      },
+      {
+        "name": "C03-TwelveStrg",
+        "syx": "Reface-TX81Z/SYX/C03-TwelveStrg.syx",
+        "txt": "Reface-TX81Z/TXT/C03-TwelveStrg.txt"
+      },
+      {
+        "name": "C04-Funky_Pick",
+        "syx": "Reface-TX81Z/SYX/C04-Funky_Pick.syx",
+        "txt": "Reface-TX81Z/TXT/C04-Funky_Pick.txt"
+      },
+      {
+        "name": "C05-AllThatJaz",
+        "syx": "Reface-TX81Z/SYX/C05-AllThatJaz.syx",
+        "txt": "Reface-TX81Z/TXT/C05-AllThatJaz.txt"
+      },
+      {
+        "name": "C06-HeavyMetal",
+        "syx": "Reface-TX81Z/SYX/C06-HeavyMetal.syx",
+        "txt": "Reface-TX81Z/TXT/C06-HeavyMetal.txt"
+      },
+      {
+        "name": "C07-Old_Banjo_",
+        "syx": "Reface-TX81Z/SYX/C07-Old_Banjo_.syx",
+        "txt": "Reface-TX81Z/TXT/C07-Old_Banjo_.txt"
+      },
+      {
+        "name": "C08-Zither____",
+        "syx": "Reface-TX81Z/SYX/C08-Zither____.syx",
+        "txt": "Reface-TX81Z/TXT/C08-Zither____.txt"
+      },
+      {
+        "name": "C09-ElecBass_1",
+        "syx": "Reface-TX81Z/SYX/C09-ElecBass_1.syx",
+        "txt": "Reface-TX81Z/TXT/C09-ElecBass_1.txt"
+      },
+      {
+        "name": "C10-SqncrBass_",
+        "syx": "Reface-TX81Z/SYX/C10-SqncrBass_.syx",
+        "txt": "Reface-TX81Z/TXT/C10-SqncrBass_.txt"
+      },
+      {
+        "name": "C11-SynFunkBas",
+        "syx": "Reface-TX81Z/SYX/C11-SynFunkBas.syx",
+        "txt": "Reface-TX81Z/TXT/C11-SynFunkBas.txt"
+      },
+      {
+        "name": "C12-ElecBass_2",
+        "syx": "Reface-TX81Z/SYX/C12-ElecBass_2.syx",
+        "txt": "Reface-TX81Z/TXT/C12-ElecBass_2.txt"
+      },
+      {
+        "name": "C13-AnalogBass",
+        "syx": "Reface-TX81Z/SYX/C13-AnalogBass.syx",
+        "txt": "Reface-TX81Z/TXT/C13-AnalogBass.txt"
+      },
+      {
+        "name": "C14-Jaco_Bass_",
+        "syx": "Reface-TX81Z/SYX/C14-Jaco_Bass_.syx",
+        "txt": "Reface-TX81Z/TXT/C14-Jaco_Bass_.txt"
+      },
+      {
+        "name": "C15-LatelyBass",
+        "syx": "Reface-TX81Z/SYX/C15-LatelyBass.syx",
+        "txt": "Reface-TX81Z/TXT/C15-LatelyBass.txt"
+      },
+      {
+        "name": "C16-MonophBass",
+        "syx": "Reface-TX81Z/SYX/C16-MonophBass.syx",
+        "txt": "Reface-TX81Z/TXT/C16-MonophBass.txt"
+      },
+      {
+        "name": "C17-StadiumSol",
+        "syx": "Reface-TX81Z/SYX/C17-StadiumSol.syx",
+        "txt": "Reface-TX81Z/TXT/C17-StadiumSol.txt"
+      },
+      {
+        "name": "C18-TrumptSolo",
+        "syx": "Reface-TX81Z/SYX/C18-TrumptSolo.syx",
+        "txt": "Reface-TX81Z/TXT/C18-TrumptSolo.txt"
+      },
+      {
+        "name": "C19-BCSexyPhon",
+        "syx": "Reface-TX81Z/SYX/C19-BCSexyPhon.syx",
+        "txt": "Reface-TX81Z/TXT/C19-BCSexyPhon.txt"
+      },
+      {
+        "name": "C20-Lyrisyn___",
+        "syx": "Reface-TX81Z/SYX/C20-Lyrisyn___.syx",
+        "txt": "Reface-TX81Z/TXT/C20-Lyrisyn___.txt"
+      },
+      {
+        "name": "C21-WarmSquare",
+        "syx": "Reface-TX81Z/SYX/C21-WarmSquare.syx",
+        "txt": "Reface-TX81Z/TXT/C21-WarmSquare.txt"
+      },
+      {
+        "name": "C22-Sync_Lead_",
+        "syx": "Reface-TX81Z/SYX/C22-Sync_Lead_.syx",
+        "txt": "Reface-TX81Z/TXT/C22-Sync_Lead_.txt"
+      },
+      {
+        "name": "C23-MellowSqar",
+        "syx": "Reface-TX81Z/SYX/C23-MellowSqar.syx",
+        "txt": "Reface-TX81Z/TXT/C23-MellowSqar.txt"
+      },
+      {
+        "name": "C24-Jazz_Flute",
+        "syx": "Reface-TX81Z/SYX/C24-Jazz_Flute.syx",
+        "txt": "Reface-TX81Z/TXT/C24-Jazz_Flute.txt"
+      },
+      {
+        "name": "C25-HeavyLead_",
+        "syx": "Reface-TX81Z/SYX/C25-HeavyLead_.syx",
+        "txt": "Reface-TX81Z/TXT/C25-HeavyLead_.txt"
+      },
+      {
+        "name": "C26-Java_Jive_",
+        "syx": "Reface-TX81Z/SYX/C26-Java_Jive_.syx",
+        "txt": "Reface-TX81Z/TXT/C26-Java_Jive_.txt"
+      },
+      {
+        "name": "C27-Xylophone_",
+        "syx": "Reface-TX81Z/SYX/C27-Xylophone_.syx",
+        "txt": "Reface-TX81Z/TXT/C27-Xylophone_.txt"
+      },
+      {
+        "name": "C28-GreatVibes",
+        "syx": "Reface-TX81Z/SYX/C28-GreatVibes.syx",
+        "txt": "Reface-TX81Z/TXT/C28-GreatVibes.txt"
+      },
+      {
+        "name": "C29-Sitar_____",
+        "syx": "Reface-TX81Z/SYX/C29-Sitar_____.syx",
+        "txt": "Reface-TX81Z/TXT/C29-Sitar_____.txt"
+      },
+      {
+        "name": "C30-Bell_Pad__",
+        "syx": "Reface-TX81Z/SYX/C30-Bell_Pad__.syx",
+        "txt": "Reface-TX81Z/TXT/C30-Bell_Pad__.txt"
+      },
+      {
+        "name": "C31-PlasticHit",
+        "syx": "Reface-TX81Z/SYX/C31-PlasticHit.syx",
+        "txt": "Reface-TX81Z/TXT/C31-PlasticHit.txt"
+      },
+      {
+        "name": "C32-DigiAnnie_",
+        "syx": "Reface-TX81Z/SYX/C32-DigiAnnie_.syx",
+        "txt": "Reface-TX81Z/TXT/C32-DigiAnnie_.txt"
+      },
+      {
+        "name": "D01-BaadBreath",
+        "syx": "Reface-TX81Z/SYX/D01-BaadBreath.syx",
+        "txt": "Reface-TX81Z/TXT/D01-BaadBreath.txt"
+      },
+      {
+        "name": "D02-VocalNuts_",
+        "syx": "Reface-TX81Z/SYX/D02-VocalNuts_.syx",
+        "txt": "Reface-TX81Z/TXT/D02-VocalNuts_.txt"
+      },
+      {
+        "name": "D03-KrstlChoir",
+        "syx": "Reface-TX81Z/SYX/D03-KrstlChoir.syx",
+        "txt": "Reface-TX81Z/TXT/D03-KrstlChoir.txt"
+      },
+      {
+        "name": "D04-Metalimba_",
+        "syx": "Reface-TX81Z/SYX/D04-Metalimba_.syx",
+        "txt": "Reface-TX81Z/TXT/D04-Metalimba_.txt"
+      },
+      {
+        "name": "D05-WaterGlass",
+        "syx": "Reface-TX81Z/SYX/D05-WaterGlass.syx",
+        "txt": "Reface-TX81Z/TXT/D05-WaterGlass.txt"
+      },
+      {
+        "name": "D06-BowedBell_",
+        "syx": "Reface-TX81Z/SYX/D06-BowedBell_.syx",
+        "txt": "Reface-TX81Z/TXT/D06-BowedBell_.txt"
+      },
+      {
+        "name": "D07-__WOW_____",
+        "syx": "Reface-TX81Z/SYX/D07-__WOW_____.syx",
+        "txt": "Reface-TX81Z/TXT/D07-__WOW_____.txt"
+      },
+      {
+        "name": "D08-Fuzzy_Koto",
+        "syx": "Reface-TX81Z/SYX/D08-Fuzzy_Koto.syx",
+        "txt": "Reface-TX81Z/TXT/D08-Fuzzy_Koto.txt"
+      },
+      {
+        "name": "D09-Spc_Midiot",
+        "syx": "Reface-TX81Z/SYX/D09-Spc_Midiot.syx",
+        "txt": "Reface-TX81Z/TXT/D09-Spc_Midiot.txt"
+      },
+      {
+        "name": "D10-Gurgle____",
+        "syx": "Reface-TX81Z/SYX/D10-Gurgle____.syx",
+        "txt": "Reface-TX81Z/TXT/D10-Gurgle____.txt"
+      },
+      {
+        "name": "D11-Hole_in_1_",
+        "syx": "Reface-TX81Z/SYX/D11-Hole_in_1_.syx",
+        "txt": "Reface-TX81Z/TXT/D11-Hole_in_1_.txt"
+      },
+      {
+        "name": "D12-Birds_____",
+        "syx": "Reface-TX81Z/SYX/D12-Birds_____.syx",
+        "txt": "Reface-TX81Z/TXT/D12-Birds_____.txt"
+      },
+      {
+        "name": "D13-MalibuNite",
+        "syx": "Reface-TX81Z/SYX/D13-MalibuNite.syx",
+        "txt": "Reface-TX81Z/TXT/D13-MalibuNite.txt"
+      },
+      {
+        "name": "D14-Helicopter",
+        "syx": "Reface-TX81Z/SYX/D14-Helicopter.syx",
+        "txt": "Reface-TX81Z/TXT/D14-Helicopter.txt"
+      },
+      {
+        "name": "D15-Flight_Sim",
+        "syx": "Reface-TX81Z/SYX/D15-Flight_Sim.syx",
+        "txt": "Reface-TX81Z/TXT/D15-Flight_Sim.txt"
+      },
+      {
+        "name": "D16-Brthbells_",
+        "syx": "Reface-TX81Z/SYX/D16-Brthbells_.syx",
+        "txt": "Reface-TX81Z/TXT/D16-Brthbells_.txt"
+      },
+      {
+        "name": "D17-Storm_Wind",
+        "syx": "Reface-TX81Z/SYX/D17-Storm_Wind.syx",
+        "txt": "Reface-TX81Z/TXT/D17-Storm_Wind.txt"
+      },
+      {
+        "name": "D18-Alarm_Call",
+        "syx": "Reface-TX81Z/SYX/D18-Alarm_Call.syx",
+        "txt": "Reface-TX81Z/TXT/D18-Alarm_Call.txt"
+      },
+      {
+        "name": "D19-Racing_Car",
+        "syx": "Reface-TX81Z/SYX/D19-Racing_Car.syx",
+        "txt": "Reface-TX81Z/TXT/D19-Racing_Car.txt"
+      },
+      {
+        "name": "D20-Whistling_",
+        "syx": "Reface-TX81Z/SYX/D20-Whistling_.syx",
+        "txt": "Reface-TX81Z/TXT/D20-Whistling_.txt"
+      },
+      {
+        "name": "D21-Space_Talk",
+        "syx": "Reface-TX81Z/SYX/D21-Space_Talk.syx",
+        "txt": "Reface-TX81Z/TXT/D21-Space_Talk.txt"
+      },
+      {
+        "name": "D22-Space_Vibe",
+        "syx": "Reface-TX81Z/SYX/D22-Space_Vibe.syx",
+        "txt": "Reface-TX81Z/TXT/D22-Space_Vibe.txt"
+      },
+      {
+        "name": "D23-Timpani___",
+        "syx": "Reface-TX81Z/SYX/D23-Timpani___.syx",
+        "txt": "Reface-TX81Z/TXT/D23-Timpani___.txt"
+      },
+      {
+        "name": "D24-FM_Hi-Hats",
+        "syx": "Reface-TX81Z/SYX/D24-FM_Hi-Hats.syx",
+        "txt": "Reface-TX81Z/TXT/D24-FM_Hi-Hats.txt"
+      },
+      {
+        "name": "D25-Bass_Drum_",
+        "syx": "Reface-TX81Z/SYX/D25-Bass_Drum_.syx",
+        "txt": "Reface-TX81Z/TXT/D25-Bass_Drum_.txt"
+      },
+      {
+        "name": "D26-Tube_Bells",
+        "syx": "Reface-TX81Z/SYX/D26-Tube_Bells.syx",
+        "txt": "Reface-TX81Z/TXT/D26-Tube_Bells.txt"
+      },
+      {
+        "name": "D27-Noise_Shot",
+        "syx": "Reface-TX81Z/SYX/D27-Noise_Shot.syx",
+        "txt": "Reface-TX81Z/TXT/D27-Noise_Shot.txt"
+      },
+      {
+        "name": "D28-Snare_1___",
+        "syx": "Reface-TX81Z/SYX/D28-Snare_1___.syx",
+        "txt": "Reface-TX81Z/TXT/D28-Snare_1___.txt"
+      },
+      {
+        "name": "D29-Snare_2___",
+        "syx": "Reface-TX81Z/SYX/D29-Snare_2___.syx",
+        "txt": "Reface-TX81Z/TXT/D29-Snare_2___.txt"
+      },
+      {
+        "name": "D30-Hand_Drum_",
+        "syx": "Reface-TX81Z/SYX/D30-Hand_Drum_.syx",
+        "txt": "Reface-TX81Z/TXT/D30-Hand_Drum_.txt"
+      },
+      {
+        "name": "D31-Synballs__",
+        "syx": "Reface-TX81Z/SYX/D31-Synballs__.syx",
+        "txt": "Reface-TX81Z/TXT/D31-Synballs__.txt"
+      },
+      {
+        "name": "D32-Efem_Toms_",
+        "syx": "Reface-TX81Z/SYX/D32-Efem_Toms_.syx",
+        "txt": "Reface-TX81Z/TXT/D32-Efem_Toms_.txt"
+      }
+    ]
+  }
+}

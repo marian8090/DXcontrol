@@ -1,0 +1,13 @@
+# Binary patch dumps and assets must never be line-ending converted.
+*.syx binary
+*.bnk binary
+*.ico binary
+
+# Text files: normalize to LF in the repo.
+*.txt text
+*.py text
+*.js text
+*.css text
+*.html text
+*.md text
+*.json text

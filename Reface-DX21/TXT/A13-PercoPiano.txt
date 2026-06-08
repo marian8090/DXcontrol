@@ -1,0 +1,54 @@
+VOICE NAME     = PercoPiano
+============================
+TRANSPOSE      =      -12
+MONO/POLY      =     Poly
+PORTA TIME     =        0
+PB RANGE       =        1
+ALGORITHM      =        3
+LFO WAVE       = Triangle
+LFO SPEED      =       53
+LFO DELAY      =        0
+LFO PMD        =        0
+PEG RATE 1     =       39
+PEG RATE 2     =       39
+PEG RATE 3     =      127
+PEG RATE 4     =       39
+PEG LEVEL 1    =        0
+PEG LEVEL 2    =        0
+PEG LEVEL 3    =        0
+PEG LEVEL 4    =        0
+FX1 TYPE       =        3 (Chorus)
+FX1 PARAM 1    =       90 (Depth)
+FX1 PARAM 2    =        0 (Rate)
+FX2 TYPE       =        0 (Thru)
+FX2 PARAM 1    =       64 (---)
+FX2 PARAM 2    =       64 (---)
+
+                      OP1      OP2      OP3      OP4     
+----------------------------------------------------
+OP Off/On      =       On       On       On       On
+EG RATE 1      =      127      127      127      127
+EG RATE 2      =       93       97       71       68
+EG RATE 3      =       46       27       94       11
+EG RATE 4      =       94       66       81      126
+EG LEVEL 1     =      127      127      127      127
+EG LEVEL 2     =      111       82       95      127
+EG LEVEL 3     =        0        0        0      127
+EG LEVEL 4     =        0        0        0        0
+RATE SCALING   =       43       43       85        0
+SCALING LD     =        0        9        0       22
+SCALING RD     =        0       35        0       84
+SCALING LC     =     +LIN     +LIN     +LIN     +LIN
+SCALING RC     =     -EXP     -EXP     -EXP     -EXP
+LFO AMD        =        0        0        0        0
+LFO PMD Off/On =       On       On       On       On
+PEG Off/On     =       On       On       On       On
+VELO SENS      =        0        0        0        0
+OUT LEVEL      =      109       20       57       79
+FEEDBACK       =        0        0        0       20
+FB TYPE        = Sawtooth Sawtooth Sawtooth Sawtooth
+FREQ MODE      =    Ratio    Ratio    Ratio    Ratio
+RATIO | FREQ   =      1.0      1.0    18.37      1.0
+   freq coarse =        1        1       18        1
+   freq fine   =        0        0       37        0
+FREQ DETUNE    =        0        0        0        0

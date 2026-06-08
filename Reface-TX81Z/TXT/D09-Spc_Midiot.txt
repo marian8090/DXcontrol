@@ -1,0 +1,54 @@
+VOICE NAME     = Spc Midiot
+============================
+TRANSPOSE      =        0
+MONO/POLY      =     Poly
+PORTA TIME     =        0
+PB RANGE       =       12
+ALGORITHM      =        3
+LFO WAVE       = Triangle
+LFO SPEED      =       86
+LFO DELAY      =       60
+LFO PMD        =        0
+PEG RATE 1     =       39
+PEG RATE 2     =       39
+PEG RATE 3     =      127
+PEG RATE 4     =       39
+PEG LEVEL 1    =        0
+PEG LEVEL 2    =        0
+PEG LEVEL 3    =        0
+PEG LEVEL 4    =        0
+FX1 TYPE       =        0 (Thru)
+FX1 PARAM 1    =       64 (---)
+FX1 PARAM 2    =       64 (---)
+FX2 TYPE       =        0 (Thru)
+FX2 PARAM 1    =       64 (---)
+FX2 PARAM 2    =       64 (---)
+
+                      OP1      OP2      OP3      OP4     
+----------------------------------------------------
+OP Off/On      =       On       On       On       On
+EG RATE 1      =       36      121       36      116
+EG RATE 2      =      106       21       46      101
+EG RATE 3      =       11       11       17       11
+EG RATE 4      =       88       69      104       60
+EG LEVEL 1     =      127      127      127      127
+EG LEVEL 2     =      127       21       95       69
+EG LEVEL 3     =      127       21       95       69
+EG LEVEL 4     =        0        0        0        0
+RATE SCALING   =        0        0       43        0
+SCALING LD     =        0        0        7        8
+SCALING RD     =        0        0       29       31
+SCALING LC     =     +LIN     +LIN     +LIN     +LIN
+SCALING RC     =     -EXP     -EXP     -EXP     -EXP
+LFO AMD        =        0        0        0       31
+LFO PMD Off/On =       On       On       On       On
+PEG Off/On     =       On       On       On       On
+VELO SENS      =       61       37        0       37
+OUT LEVEL      =      127      127       90      103
+FEEDBACK       =        0        0      125       16
+FB TYPE        = Sawtooth Sawtooth   Square   Square
+FREQ MODE      =    Ratio    Ratio    Fixed    Ratio
+RATIO | FREQ   =      0.5     6.28   239.88      2.0
+   freq coarse =        0        6       16        2
+   freq fine   =        0       28       38        0
+FREQ DETUNE    =        4        4       -4       -4

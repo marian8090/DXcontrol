@@ -1,0 +1,54 @@
+VOICE NAME     = Whistling 
+============================
+TRANSPOSE      =        0
+MONO/POLY      =     Poly
+PORTA TIME     =        0
+PB RANGE       =        2
+ALGORITHM      =        8
+LFO WAVE       = Triangle
+LFO SPEED      =       91
+LFO DELAY      =       47
+LFO PMD        =       20
+PEG RATE 1     =       39
+PEG RATE 2     =       39
+PEG RATE 3     =      127
+PEG RATE 4     =       39
+PEG LEVEL 1    =        0
+PEG LEVEL 2    =        0
+PEG LEVEL 3    =        0
+PEG LEVEL 4    =        0
+FX1 TYPE       =        0 (Thru)
+FX1 PARAM 1    =       64 (---)
+FX1 PARAM 2    =       64 (---)
+FX2 TYPE       =        0 (Thru)
+FX2 PARAM 1    =       64 (---)
+FX2 PARAM 2    =       64 (---)
+
+                      OP1      OP2      OP3      OP4     
+----------------------------------------------------
+OP Off/On      =       On       On       On       On
+EG RATE 1      =       78      127       89      127
+EG RATE 2      =       44       82       49       77
+EG RATE 3      =       11       11       11       11
+EG RATE 4      =       98       98       88       88
+EG LEVEL 1     =      127      127      127      127
+EG LEVEL 2     =      111       37      127        0
+EG LEVEL 3     =      111       37      127        0
+EG LEVEL 4     =        0        0        0        0
+RATE SCALING   =        0        0        0        0
+SCALING LD     =        6        0        0        0
+SCALING RD     =       22        0        0        0
+SCALING LC     =     +LIN     +LIN     +LIN     +LIN
+SCALING RC     =     -EXP     -EXP     -EXP     -EXP
+LFO AMD        =        0        0        0        0
+LFO PMD Off/On =       On       On       On       On
+PEG Off/On     =       On       On       On       On
+VELO SENS      =       45        0       45       61
+OUT LEVEL      =      113       57       85      101
+FEEDBACK       =        0        0        0       51
+FB TYPE        = Sawtooth Sawtooth Sawtooth Sawtooth
+FREQ MODE      =    Ratio    Ratio    Ratio    Ratio
+RATIO | FREQ   =      2.0     0.71      2.0     1.73
+   freq coarse =        2        0        2        1
+   freq fine   =        0       42        0       73
+FREQ DETUNE    =        0        0        0        0

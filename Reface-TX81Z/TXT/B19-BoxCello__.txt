@@ -1,0 +1,54 @@
+VOICE NAME     = BoxCello  
+============================
+TRANSPOSE      =      -12
+MONO/POLY      =     Poly
+PORTA TIME     =        0
+PB RANGE       =        4
+ALGORITHM      =        3
+LFO WAVE       = Triangle
+LFO SPEED      =       82
+LFO DELAY      =       51
+LFO PMD        =       10
+PEG RATE 1     =       39
+PEG RATE 2     =       39
+PEG RATE 3     =      127
+PEG RATE 4     =       39
+PEG LEVEL 1    =        0
+PEG LEVEL 2    =        0
+PEG LEVEL 3    =        0
+PEG LEVEL 4    =        0
+FX1 TYPE       =        0 (Thru)
+FX1 PARAM 1    =       64 (---)
+FX1 PARAM 2    =       64 (---)
+FX2 TYPE       =        0 (Thru)
+FX2 PARAM 1    =       64 (---)
+FX2 PARAM 2    =       64 (---)
+
+                      OP1      OP2      OP3      OP4     
+----------------------------------------------------
+OP Off/On      =       On       On       On       On
+EG RATE 1      =       80      121      100      127
+EG RATE 2      =       66       49       82       26
+EG RATE 3      =       23       21       11       11
+EG RATE 4      =       72       50      117       69
+EG LEVEL 1     =      127      127      127      127
+EG LEVEL 2     =      127       95       46      111
+EG LEVEL 3     =      127        0       46      111
+EG LEVEL 4     =        0        0        0        0
+RATE SCALING   =       85        0        0        0
+SCALING LD     =        1        5        3        3
+SCALING RD     =        4       18       10       13
+SCALING LC     =     +LIN     +LIN     +LIN     +LIN
+SCALING RC     =     -EXP     -EXP     -EXP     -EXP
+LFO AMD        =        0        0        0        0
+LFO PMD Off/On =       On       On       On       On
+PEG Off/On     =       On       On       On       On
+VELO SENS      =       37       37       45        0
+OUT LEVEL      =      126       58      105       87
+FEEDBACK       =        0        0       64       38
+FB TYPE        = Sawtooth Sawtooth Sawtooth   Square
+FREQ MODE      =    Ratio    Ratio    Ratio    Ratio
+RATIO | FREQ   =      2.0      2.0      7.0      1.0
+   freq coarse =        2        2        7        1
+   freq fine   =        0        0        0        0
+FREQ DETUNE    =        0       -4        4        4
